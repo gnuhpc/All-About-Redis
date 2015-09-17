@@ -68,3 +68,10 @@
 	* [延迟考虑](CodeDesignRule/latency.md)
 	* [典型使用场景参考](CodeDesignRule/applicaiton.md)
 
+* [上线部署规划](ProdEnvDeploy/README.md)
+	* [内存规划](ProdEnvDeploy/memory.md)
+	* [网卡RPS设置](ProdEnvDeploy/rps.md)
+	* [服务器部署位置](ProdEnvDeploy/servers.md)
+	* [持久化设置](ProdEnvDeploy/persistence.md)
+	* [多实例配置](ProdEnvDeploy/multi-instance.md)
+	* [具体设置参数](ProdEnvDeploy/conf.md)
