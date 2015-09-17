@@ -52,9 +52,19 @@
 		* [返回集合中score在给定区间的数量](DataStructure/zset/zcount.md) 
 		* [返回集合中元素个数](DataStructure/zset/zcard.md)  
 		* [返回给定元素对应的score](DataStructure/zset/zscore.md)
-		* [评分的聚合](DataStructure/zset/ZUNIONSTORE.md) 
+		* [评分的聚合](DataStructure/zset/ZUNIONSTORE.md)
+		 
 * [专题功能](IndependentFunc/README.md)
 	* [排序](IndependentFunc/sort.md) 
 	* [事务](IndependentFunc/transection.md) 
 	* [流水线](IndependentFunc/pipeline.md)
 	* [发布订阅](IndependentFunc/pubsub.md)  
+
+* [开发设计规范](CodeDesignRule/README.md)
+	* [Key设计](CodeDesignRule/keydesign.md)
+	* [超时设置](CodeDesignRule/expire.md)  
+	* [数据异常处理](CodeDesignRule/dataexception.md)
+	* [内存考虑](CodeDesignRule/memory.md)
+	* [延迟考虑](CodeDesignRule/latency.md)
+	* [典型使用场景参考](CodeDesignRule/applicaiton.md)
+
