@@ -21,3 +21,13 @@
 	    * [中文字符串处理](DataStructure/string/chinese.md)
 	    * [取指定key的value值的长度](DataStructure/string/strlen.md)
 	    * [位操作](DataStructure/string/bitop.md)
+
+    * [列表操作](DataStructure/list/README.md)
+	    * [添加元素](DataStructure/list/addlist.md)
+	    * [查看列表长度](DataStructure/list/llen.md)
+	    * [查看列表元素](DataStructure/list/lindex.md)
+	    * [查看一端列表](DataStructure/list/lrange.md)
+	    * [截取列表](DataStructure/list/ltrim.md)
+	    * [删除元素](DataStructure/list/del.md)
+	    * [设置list中指定下标的元素值](DataStructure/list/lset.md)
+	    * [阻塞队列](DataStructure/list/blocklist.md)
