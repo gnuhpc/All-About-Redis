@@ -11,4 +11,6 @@
 
 本手册符合共同创作协议, 协议文本见 [http://creativecommons.net.cn/licenses/meet-the-licenses/](http://creativecommons.net.cn/licenses/meet-the-licenses/)
 
+ 有不正确的地方，请通过gnuhpc@weibo或者huangpengcheng#cmbc.com.cn (:s/#/@)联系我。 — Pengcheng Huang
+
 
