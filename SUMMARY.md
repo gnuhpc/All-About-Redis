@@ -80,7 +80,7 @@
 	* [内存考虑](CodeDesignRule/memory.md)
 	* [延迟考虑](CodeDesignRule/latency.md)
 	* [典型使用场景参考](CodeDesignRule/applicaiton.md)
-
+	* [客户端推荐](CodeDesignRule/client.md)
 * [上线部署规划](ProdEnvDeploy/README.md)
 	* [内存规划](ProdEnvDeploy/memory.md)
 	* [网卡RPS设置](ProdEnvDeploy/rps.md)

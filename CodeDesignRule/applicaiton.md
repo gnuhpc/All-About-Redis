@@ -61,9 +61,21 @@ Redis 的 Pub/Sub 系统可以构建实时的消息系统，比如很多用 Pub/
 使用list可以构建队列系统，使用 sorted set甚至可以构建有优先级的队列系统。 
  
 #### 9.缓存 #### 
-性能优于Memcached，数据结构更多样化。
+性能优于Memcached，数据结构更多样化。作为RDBMS的前端挡箭牌，redis可以对一些使用频率极高的sql操作进行cache，比如，我们可以根据sql的hash进行SQL结果的缓存：
+
+	def get_results(sql):
+		hash = md5.new(sql).digest()
+		result = redis.get(hash)
+		if result is None:
+			result = db.execute(sql)
+			redis.set(hash, result)
+			# or use redis.setex to set a TTL for the key
+		return result
+
+
 
 #### 10.使用setbit进行统计计数 ####
+下边的例子是记录UV
     
     #!/usr/bin/python
     import redis
