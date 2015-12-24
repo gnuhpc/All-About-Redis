@@ -119,6 +119,7 @@
 		* [查看日志](Problem/general/log.md) 
 	* [延迟检查](Problem/latency/README.md)
 		* [检查CPU情况](Problem/latency/cpu.md) 
+		* [检查网络情况](Problem/latency/network.md)
 		* [检查redis整体情况](Problem/latency/overall-check.md) 
 		* [检查连接数](Problem/latency/total-commands.md)	
 		* [检查持久化](Problem/latency/persistence-check.md)	

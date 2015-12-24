@@ -9,3 +9,7 @@
 	redis-benchmark -n 100000 -q script load "redis.call('set','foo','bar')"
 
 注意：Redis-Benchmark的测试结果提供了一个保证你的 Redis-Server 不会运行在非正常状态下的基准点，但是你永远不要把它作为一个真实的“压力测试”。压力测试需要反应出应用的运行方式，并且需要一个尽可能的和生产相似的环境。
+
+
+还有一个工具是RedisLab放出来的，我没有测试
+参见：https://github.com/RedisLabs/memtier_benchmark
