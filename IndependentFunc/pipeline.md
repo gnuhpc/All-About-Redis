@@ -4,3 +4,5 @@
 	cat data.txt | redis-cli –pipe
 
 在选择开源redis开发库时需要着重注意是否支持pipeline，常见的jedis可以支持。
+	
+在部署架构是网络多跳的时候需要注意使用pipeline提高处理效率。
