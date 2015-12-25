@@ -30,7 +30,7 @@
 	    * [删除元素](DataStructure/list/del.md)
 	    * [设置list中指定下标的元素值](DataStructure/list/lset.md)
 	    * [阻塞队列](DataStructure/list/blocklist.md)
-    * [集合操作](DataStructure/set/README.md)
+	* [集合操作](DataStructure/set/README.md)
 	    * [添加元素](DataStructure/set/sadd.md)
 	    * [移除元素](DataStructure/set/srem.md)
 		* [删除并返回元素](DataStructure/set/spop.md)
