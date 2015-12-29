@@ -1,0 +1,8 @@
+{
+    "name": "Redis开发运维实践指南",
+    "introduction": "中国民生银行总行科技部工程师-黄鹏程个人经验总结，最新 Redis 应用场景与最佳实践指南。",
+    "path":{
+     "toc":"SUMMARY.md"
+    }
+
+}
