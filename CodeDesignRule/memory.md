@@ -2,7 +2,7 @@
 
 1.	只要有可能的话，就尽量使用散列键而不是字符串键来储存键值对数据，因为散列键管理方便、能够避免键名冲突、并且还能够节约内存。
 
-	具体实例： 节约内存：Instagram的Redis实践 [blog.nosqlfan.com/html/3379.html](blog.nosqlfan.com/html/3379.html "原文链接")
+	具体实例： 节约内存：Instagram的Redis实践 [blog.nosqlfan.com/html/3379.html](http://blog.nosqlfan.com/html/3379.html)
 
 2. 如果将redis作为cache进行频繁读写和超时删除等，此时应该避免设置较大的k-v，因为这样会导致redis的 内存碎片增加，导致rss占用较大，最后被操作系统OOM killer干掉。一个很具体的issue例子请见：https://github.com/antirez/redis/issues/2136
 
