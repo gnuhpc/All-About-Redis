@@ -23,4 +23,7 @@
 
 > ![](https://raw.githubusercontent.com/gnuhpc/All-About-Redis/master/weixin-qrcode.jpg)
 
+赞助名单：
+
+1. Tina 10元 2016-01-13
 
