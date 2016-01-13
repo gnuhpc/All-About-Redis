@@ -13,5 +13,14 @@
 
 有不正确的地方，请通过gnuhpc@weibo或者huangpengcheng#cmbc.com.cn (:s/#/@)联系我。 — Pengcheng Huang
 
+如果你觉得这些内容有帮助，欢迎打赏 ^_^ ，不定期公布支持我的好朋友名单。
+
+支付宝二维码：
+
+> ![](https://raw.githubusercontent.com/gnuhpc/All-About-Redis/master/alipay-qrcode.jpg)
+
+微信二维码：
+
+> ![](https://raw.githubusercontent.com/gnuhpc/All-About-Redis/master/weixin-qrcode.png)
 
 
