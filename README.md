@@ -15,6 +15,12 @@
 
 如果你觉得这些内容有帮助，欢迎打赏 ^_^ ，不定期公布支持我的好朋友名单。
 
+
+赞助名单：
+
+1. Tina 10元 2016-01-13
+
+
 支付宝二维码：
 
 > ![](https://raw.githubusercontent.com/gnuhpc/All-About-Redis/master/alipay-qrcode.jpg)
@@ -22,8 +28,4 @@
 微信二维码：
 
 > ![](https://raw.githubusercontent.com/gnuhpc/All-About-Redis/master/weixin-qrcode.jpg)
-
-赞助名单：
-
-1. Tina 10元 2016-01-13
 
