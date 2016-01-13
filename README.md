@@ -21,6 +21,6 @@
 
 微信二维码：
 
-> ![](https://raw.githubusercontent.com/gnuhpc/All-About-Redis/master/weixin-qrcode.jpg)
+> ![](https://raw.githubusercontent.com/gnuhpc/All-About-Redis/master/weixin-qrcode.png)
 
 
