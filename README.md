@@ -22,10 +22,9 @@
 
 
 支付宝二维码：
-
-> ![](https://raw.githubusercontent.com/gnuhpc/All-About-Redis/master/alipay-qrcode.jpg)
+> ![](images/alipay-qrcode.jpg) 
 
 微信二维码：
 
-> ![](https://raw.githubusercontent.com/gnuhpc/All-About-Redis/master/weixin-qrcode.jpg)
+> ![](images/weixin-qrcode.jpg)
 
