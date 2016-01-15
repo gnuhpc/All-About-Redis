@@ -22,9 +22,9 @@
 
 
 支付宝二维码：
-> ![](images/alipay-qrcode.jpg) 
+![](images/alipay-qrcode.jpg) 
 
 微信二维码：
 
-> ![](images/weixin-qrcode.jpg)
+![](images/weixin-qrcode.jpg)
 
