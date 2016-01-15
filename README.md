@@ -21,11 +21,13 @@
 1. Tina 10元 2016-01-13
 2. FloydZhang 10元 2016-01-15
 
-
-支付宝二维码：
-![](images/alipay-qrcode.jpg) 
-
 微信二维码：
 
 ![](images/weixin-qrcode.jpg)
+
+支付宝二维码：
+
+![](images/alipay-qrcode.jpg) 
+
+
 
