@@ -142,3 +142,5 @@
 	* [快速产生测试数据](Testing/populate.md)
 	* [模拟RDB load情形](Testing/rdb-reload.md)
 	* [模拟AOF load情形](Testing/aof-reload.md)
+* [Redis安全问题](Security/README.md)
+	* [Shell提权问题](Security/shell.md)
