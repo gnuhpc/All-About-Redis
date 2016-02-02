@@ -11,9 +11,12 @@
 
 本手册符合共同创作协议, 协议文本见 [http://creativecommons.net.cn/licenses/meet-the-licenses/](http://creativecommons.net.cn/licenses/meet-the-licenses/)
 
-有不正确的地方，请通过gnuhpc@weibo或者huangpengcheng#cmbc.com.cn (:s/#/@)联系我。 — Pengcheng Huang
+有不正确的地方，请通过gnuhpc@weibo或者huangpengcheng#cmbc.com.cn (:s/#/@)联系我。
 
-如果你觉得这些内容有帮助，欢迎打赏 ^_^ ，**打赏的同学如邮件给我咨询问题可优先一起讨论问题（不敢说是解答问题）~** 不定期公布支持我的好朋友名单。
+如果你觉得这些内容有帮助，欢迎Star我，也欢迎打赏 ^_^ ，我会不定期公布支持我的好朋友名单。
+
+
+— Pengcheng Huang
 
 
 赞助名单：
