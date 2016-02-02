@@ -49,7 +49,7 @@
     rdb_changes_since_last_save:0   ###距离最近一次成功创建持久化文件之后，产生了多少次修改数据集的操作
     rdb_bgsave_in_progress:0   ###记录了服务器是否正在创建 RDB 文件，1为正在进行
     rdb_last_save_time:1420023749  ###最近一次成功创建 RDB 文件的 UNIX 时间戳
-    rdb_last_bgsave_status:ok   ###最近一次创建 RDB 文件的结果是成功还是失败
+    rdb_last_bgsave_status:ok   ###最近一次创建 RDB 文件的结果是成功还是失败,失败标识为err，这个时候写入redis 的操作可能会停止，因为默认stop-writes-on-bgsave-error是开启的，这个时候如果需要尽快恢复写操作，可以手工将这个选项设置为no。
     rdb_last_bgsave_time_sec:0  ###最近一次创建 RDB 文件耗费的秒数
     rdb_current_bgsave_time_sec:-1  ###如果服务器正在创建 RDB 文件，那么这个域记录的就是当前的创建操作已经耗费的秒数
     aof_enabled:1   ###AOF 是否处于打开状态，1为启用
@@ -73,7 +73,7 @@
     loading_eta_seconds:7   剩余时间
     
     # Stats
-    total_connections_received:8466  ###服务器已接受的连接请求数量
+    total_connections_received:8466  ###服务器已接受的连接请求数量，注意这是个累计值。
     total_commands_processed:900668   ###服务器已执行的命令数量，这个数值需要持续监控，如果在一段时间内出现大范围波动说明系统要么出现大量请求，要么出现执行缓慢的操作。
     instantaneous_ops_per_sec:1   ###服务器每秒钟执行的命令数量
     total_net_input_bytes:82724170

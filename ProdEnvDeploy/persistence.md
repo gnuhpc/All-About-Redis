@@ -5,3 +5,6 @@ RDB和AOF两者毫无关系，完全独立运行，如果使用了AOF，重启�
     
     m h * * * redis-cli -p <port> BGSAVE
     m h */4 * * redis-cli -p <port> BGREWRITEAOF
+
+持久化的部署规划上，如果为主从复制关系，建议主关闭持久化。
+

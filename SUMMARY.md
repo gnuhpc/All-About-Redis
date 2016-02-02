@@ -88,6 +88,7 @@
 	* [持久化设置](ProdEnvDeploy/persistence.md)
 	* [多实例配置](ProdEnvDeploy/multi-instance.md)
 	* [具体设置参数](ProdEnvDeploy/conf.md)
+	* [其他好用的配置技巧](ProdEnvDeploy/tips.md)
 * [常见运维操作](Operation/README.md)
 	* [启动](Operation/start.md)
 	* [停止](Operation/stop.md)
