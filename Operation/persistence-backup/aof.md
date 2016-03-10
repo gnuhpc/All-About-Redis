@@ -9,10 +9,10 @@
 动态打开AOF：
 
 	redis-cli config set appendonly yes
-永久关闭RDB：
+永久关闭AOF：
 
 	sed -e '/appendonly/ s/^#*/#/' -i /etc/redis/redis.conf  （默认是关闭的）
-永久打开RDB：
+永久打开AOF：
 
 	将appendonly yes设置在redis.conf中
 
