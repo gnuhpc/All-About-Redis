@@ -1,5 +1,5 @@
-#2.7	其他好用的配置技巧
-##2.7.1	使用supervisord进行进程管理
+#5.7	其他好用的配置技巧
+##5.7.1	使用supervisord进行进程管理
 
 Supervisord是一个优秀的进程管理工具，一般在部署redis时采用它来进行redis、sentinel等进程的管理，一个已经在生产环境采用的supervisord配置文件如下：
 	; Sample supervisor config file. 
@@ -177,7 +177,7 @@ Supervisord是一个优秀的进程管理工具，一般在部署redis时采用�
 	autorestart=true 
 	startsecs=3
 
-##2.7.2	使用alias方便操作
+##5.7.2	使用alias方便操作
 
 如果开多实例，那么shell下进行操作的次数会很多，因此你需要一些alias进行命令的缩短，这个技巧并不高深，但是很实用。一个实例如下：
 
@@ -190,7 +190,7 @@ Supervisord是一个优秀的进程管理工具，一般在部署redis时采用�
 	alias sstart='supervisord -c $HOME/redis-3.0.4/conf/redis-supervisord.conf' 
 	alias see='pdsh -R ssh -w MSMSRED[1-3],PSMSRED1,PSMSAPP1 "/usr/local/bin/supervisorctl -c /smsred/redis-3.0.4/conf/redis-supervisord.conf status "' 
 
-##2.7.3	使用pdsh/pdcp进行多机器操作
+##5.7.3	使用pdsh/pdcp进行多机器操作
 
 Pdsh/pdcp是一个python ssh多机操作的工具，在部署中可以采用它进行多机的同一操作批量执行，注意编译的时候把ssh编译进去，在执行时指定ssh模式，一个查看多机supervisord管理进程的命令实例如下：
 
@@ -245,7 +245,7 @@ Pdsh/pdcp是一个python ssh多机操作的工具，在部署中可以采用它�
 	xxxx.137:username:password
 
 
-2.7.4	使用脚本进行sentinel配置文件的备份
+##5.7.4	使用脚本进行sentinel配置文件的备份
 
 Sentinel在启动、切换时会对config文件进行rewrite，在上线前或者某些手动维护后你可能希望把conf文件都变为最初，当系统中有很多redis实例时，这个手工操作会让人疯掉，那不妨写个脚本在配置好sentinel和redis后不启动先备份一下，测试完毕后再恢复。
 

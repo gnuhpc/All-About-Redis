@@ -1,4 +1,4 @@
-#2.5	多实例配置
+#5.5	多实例配置
 如果一台机器上防止多个redis实例，为了防止上下文切换导致的开销，可以采用taskset。taskset是LINUX提供的一个命令(ubuntu系统可能需要自行安装，schedutils package)。他可以让某个程序运行在某个（或）某些CPU上。
 
 1）显示进程运行的CPU （6137为redis-server的进程号）
