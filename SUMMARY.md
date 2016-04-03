@@ -186,3 +186,7 @@
 			* [master所在主机整体宕测试](HAClusterArchPractice/ms/hatest-mastermachdown.md)
 			* [slave所在主机整体宕测试](HAClusterArchPractice/ms/hatest-slavemachdown.md)
 			* [脑裂测试](HAClusterArchPractice/ms/hatest-brainsplit.md)
+			* [quorum测试](HAClusterArchPractice/ms/hatest-quorum.md)
+			* [Master hang死测试](HAClusterArchPractice/ms/hatest-masterhang.md)
+			* [附：sentinel.conf被修改后的含义](HAClusterArchPractice/ms/hatest-sentinelconf.md)
+			* [附：sentinel事件含义](HAClusterArchPractice/ms/hatest-sentinelevent.md)
