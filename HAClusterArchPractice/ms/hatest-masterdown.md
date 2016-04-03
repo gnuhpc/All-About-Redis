@@ -36,6 +36,7 @@
 ![](https://raw.githubusercontent.com/gnuhpc/All-About-Redis/master/HAClusterArchPractice/ms/hatest3.png)
 
 目前2.128为主，2.130为从，2.129上的redis宕掉。现在重启2.129上的redis实例，启动后该节点会从原先的主变为从，并对2.128进行同步，最后达到同步状态：
+
 ![](https://raw.githubusercontent.com/gnuhpc/All-About-Redis/master/HAClusterArchPractice/ms/hatest4.png) 
 
 查看redis.conf和redis-sentinel.conf，发现都被改写。
