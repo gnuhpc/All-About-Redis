@@ -29,6 +29,9 @@
 6. 黄海斌 10元 2016-04-04 
 7. Ghost 16.88元 2016-04-13
 
+更新：谢谢大家的赞助，我建立了一个Redis技术交流微信群，专门交流Redis开发和运维相关技术的，欢迎大家加入讨论：
+![](images/weixin-group.png)
+
 微信二维码：
 
 ![](images/weixin-qrcode.jpg)
