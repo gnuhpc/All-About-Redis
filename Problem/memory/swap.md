@@ -1,4 +1,4 @@
-#6.3.2	系统swap内存查看
+#8.3.2	系统swap内存查看
 
 	#!/bin/bash 
 	# Get current swap usage for all running processes

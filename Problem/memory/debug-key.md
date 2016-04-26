@@ -1,4 +1,4 @@
-#6.3.8	查看key内部结构和编码等信息
+#8.3.8	查看key内部结构和编码等信息
 	debug object
 
 查看一个key内部信息，比如refcount、encoding、serializedlength等，结果如下
