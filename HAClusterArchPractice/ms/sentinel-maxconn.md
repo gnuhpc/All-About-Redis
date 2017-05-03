@@ -92,3 +92,9 @@ http://www.tldp.org/HOWTO/html_single/TCP-Keepalive-HOWTO/
 附录：如何用TCPDUMP进行keep alive抓包
 
 	tcpdump -pni bond0 -v "src port 26379 and ( tcp[tcpflags] & tcp-ack != 0 and ( (ip[2:2] - ((ip[0]&0xf)<<2) ) - ((tcp[12]&0xf0)>>2) ) == 0 ) "
+
+# 7.	问题再后续 #
+
+我们后来在这个应用上发现一旦网络有抖动，sentinel的连接增加就回大幅度增加，后来通过jmap查看sentinelpool的实例竟然多达200多个，也就是说这个就是程序的问题，在sentinelpool上不应该多次实例化，而是采用已有连接进行重连。
+
+
