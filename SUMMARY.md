@@ -25,7 +25,7 @@
 	    * [添加元素](DataStructure/list/addlist.md)
 	    * [查看列表长度](DataStructure/list/llen.md)
 	    * [查看列表元素](DataStructure/list/lindex.md)
-	    * [查看一端列表](DataStructure/list/lrange.md)
+	    * [查看一段列表](DataStructure/list/lrange.md)
 	    * [截取列表](DataStructure/list/ltrim.md)
 	    * [删除元素](DataStructure/list/del.md)
 	    * [设置list中指定下标的元素值](DataStructure/list/lset.md)
