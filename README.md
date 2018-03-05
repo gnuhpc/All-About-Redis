@@ -17,6 +17,10 @@
 
 
 — Pengcheng Huang
+## **新书发布：** ##
+ 
+我和Airbnb美国的工程师王左非一起写的新书Redis 4.x Cookbook已经由Packt出版，目前在Amazon.com上销售，请大家多多支持！
+https://www.amazon.com/Redis-4-X-Cookbook-Pengcheng-Huang/dp/1783988169/ref=sr_1_2?ie=UTF8&qid=1519899713&sr=8-2&keywords=redis&dpID=51x10vJb%252B6L&preST=_SX218_BO1,204,203,200_QL40_&dpSrc=srch
 
 ## **技术交流：** ##
 谢谢大家的赞助，我建立了一个Redis技术交流微信群（主群已满，有目前codis、pika、tidb等知名开源软件的作者），专门交流Redis开发和运维相关技术的，由于已经超100人，想加入的请先加我的微信：gnuhpc。谢谢！
