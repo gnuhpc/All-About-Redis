@@ -25,8 +25,12 @@ https://www.amazon.com/Redis-4-X-Cookbook-Pengcheng-Huang/dp/1783988169/ref=sr_1
 亚马逊中国Kindle版地址：
 https://www.amazon.cn/dp/B07B6SDXQH/ref=sr_1_2?ie=UTF8&qid=1522737150&sr=8-2&keywords=redis+cookbook
  
-中文版正在翻译，将在博文视点出版。
- 
+中文版翻译已经完成，已于博文视点出版, 欢迎大家购买：
+https://item.jd.com/12364212.html
+
+在豆瓣上欢迎大家点评，并指出错误，谢谢！
+https://book.douban.com/subject/30227261/
+
 ## **技术交流：** ##
 谢谢大家的赞助，我建立了一个Redis技术交流微信群（主群已满，有目前codis、pika、tidb等知名开源软件的作者），专门交流Redis开发和运维相关技术的，由于已经超100人，想加入的请先加我的微信：gnuhpc。谢谢！
 
