@@ -20,15 +20,19 @@
 ## **新书发布：** ##
  
 我和Airbnb美国的工程师王左非一起写的新书Redis 4.x Cookbook已经由Packt出版，目前在Amazon.com上销售，请大家多多支持！
+
 https://www.amazon.com/Redis-4-X-Cookbook-Pengcheng-Huang/dp/1783988169/ref=sr_1_2?ie=UTF8&qid=1519899713&sr=8-2&keywords=redis&dpID=51x10vJb%252B6L&preST=_SX218_BO1,204,203,200_QL40_&dpSrc=srch
  
 亚马逊中国Kindle版地址：
+
 https://www.amazon.cn/dp/B07B6SDXQH/ref=sr_1_2?ie=UTF8&qid=1522737150&sr=8-2&keywords=redis+cookbook
  
 中文版翻译已经完成，已于博文视点出版, 欢迎大家购买：
+
 https://item.jd.com/12364212.html
 
 在豆瓣上欢迎大家点评，并指出错误，谢谢！
+
 https://book.douban.com/subject/30227261/
 
 ## **技术交流：** ##
