@@ -17,7 +17,7 @@ class MyTimedRotatingFileHandler(logging.handlers.TimedRotatingFileHandler):
         super(logging.handlers.TimedRotatingFileHandler, self).doRollover()
         main_logger.info("Records log has been rotating...")
         call('git add .', shell = True)
-        call('git commit -a "commiting..."', shell = True)
+        call('git commit -m "commiting..."', shell = True)
         call('git push origin master', shell = True)
 
 def setup_logger(name, log_file):
