@@ -24,7 +24,7 @@ def setup_logger(name, log_file):
     """Function setup as many loggers as you want"""
 
     handler = MyTimedRotatingFileHandler(log_file, when='M')
-    handler.suffix = "%Y-%m-%d"
+    handler.suffix = "%Y-%m-%d.log"
     handler.setFormatter(formatter)
 
     logger = logging.getLogger(name)
