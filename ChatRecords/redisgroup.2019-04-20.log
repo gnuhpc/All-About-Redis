@@ -1,4 +1,5 @@
-2019-04-20 15:42:53,407  仲肥@阿里云 from Redis技术交流群2 说: 
-『old master 发生部分同步的情况是不存在的』这个是指什么？
-2019-04-20 15:43:52,857  唐唐@烽火 from Redis技术交流群2 说: 
-指的是只能全量同步，不可能部分同步
+2019-04-20 15:48:29,800  仲肥@阿里云 from Redis技术交流群2 说: 
+可以的啊：
+1. 在old slave上执行slaveof no one，原来的replid和offset+1会保存在replid2和second_offset，比如是abc和100+1；
+2. 在old master上执行slaveof ip port，这个时候会以自己的replid和master_repl_offset构建一个cached_master，也是abc和100，发送psync abc 100+1给old slave；
+3. old slave收到psync abc 100+1能够和replid2 second_offset匹配，这时就部分重同步就好了。
