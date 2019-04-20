@@ -1,2 +1,5 @@
-2019-04-20 15:58:13,660  唐唐@烽火 from Redis技术交流群2 说: 
-2.old master重启，此时需要加载nodes.conf文件和Rdb文件的信息。Rdb里面有复制ID字段，加载完后，会吧复制ID写到cached_master，发给old slave
+2019-04-20 16:00:26,345  唐唐@烽火 from Redis技术交流群2 说: 
+如果old slave提为主，
+old master重启，是要加载nodes.conf的吧。
+2019-04-20 16:00:53,565  仲肥@阿里云 from Redis技术交流群2 说: 
+要看nodes.conf里当前node是master还是slave，只有slave可以加载replication info；如果把限制条件去掉那master是可以加载replid，但是也会造成有多个master具有相同replid的情况
