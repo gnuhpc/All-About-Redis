@@ -3,7 +3,7 @@
 import sys
 reload(sys)
 sys.setdefaultencoding( "utf8" )
- 
+
 import itchat
 from itchat.content import *
 
@@ -14,7 +14,7 @@ formatter = logging.Formatter('%(asctime)s  %(message)s')
 
 class MyTimedRotatingFileHandler(logging.handlers.TimedRotatingFileHandler):
     def doRollover(self):
-        super(logging.handlers.TimedRotatingFileHandler, self).doRollover()
+        super(MyTimedRotatingFileHandler,self).doRollover()
         main_logger.info("Records log has been rotating...")
         call('git add .', shell = True)
         call('git commit -m "commiting..."', shell = True)
@@ -23,7 +23,7 @@ class MyTimedRotatingFileHandler(logging.handlers.TimedRotatingFileHandler):
 def setup_logger(name, log_file):
     """Function setup as many loggers as you want"""
 
-    handler = MyTimedRotatingFileHandler(log_file, when='midnight')
+    handler = MyTimedRotatingFileHandler(log_file, when='M')
     handler.suffix = "%Y-%m-%d"
     handler.setFormatter(formatter)
 
@@ -42,7 +42,7 @@ def group_reply_text(msg):
     chatroom_id = msg['FromUserName']
     # 发送者的昵称
     username = msg['ActualNickName']
- 
+
     from_chatroom = ''
 
     # 消息并不是来自于需要同步的群
@@ -65,9 +65,9 @@ def group_reply_text(msg):
             if not item['UserName'] == chatroom_id:
                 itchat.send('%s from %s 分享链接:\n %s\n%s' % (username,from_chatroom, msg['Text'], msg['Url']), item['UserName'])
                 record_logger.info('%s from %s 分享链接:\n %s\n%s' % (username,from_chatroom, msg['Text'], msg['Url']))
- 
+
 # 自动回复图片等类别的群聊消息
-# isGroupChat=True表示为群聊消息          
+# isGroupChat=True表示为群聊消息
 @itchat.msg_register([PICTURE, ATTACHMENT, VIDEO], isGroupChat=True)
 def group_reply_media(msg):
     # 消息来自于哪个群聊
@@ -80,21 +80,21 @@ def group_reply_media(msg):
     for item in chatrooms:
         if item['UserName'] == chatroom_id:
             from_chatroom = item['NickName']
- 
+
     # 消息并不是来自于需要同步的群
     if not chatroom_id in chatroom_ids:
         return
- 
+
     # 如果为gif图片则不转发
     if msg['FileName'][-4:] == '.gif':
         return
- 
+
     # 下载图片等文件
     msg['Text'](msg['FileName'])
     # 转发至其他需要同步消息的群聊
     for item in chatrooms:
         if not item['UserName'] == chatroom_id:
-            itchat.send('%s from %s 发送了：\n' % (username, from_chatroom))
+            itchat.send('%s from %s 发送了：\n' % (username, from_chatroom), item['UserName'])
             itchat.send('@%s@%s' % ({'Picture': 'img', 'Video': 'vid'}.get(msg['Type'], 'fil'), msg['FileName']), item['UserName'])
 
 def init_logger():
