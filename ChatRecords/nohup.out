@@ -38,3 +38,10 @@ Traceback (most recent call last):
 AttributeError: 'super' object has no attribute 'doRollover'
 Logged from file syncgroupchat.py, line 61
 █Start auto replying.
+[master 21d2534] commiting...
+ 6 files changed, 43 insertions(+), 4 deletions(-)
+ create mode 100644 ChatRecords/190420-115651.png
+ create mode 100644 ChatRecords/main.2019-04-20.log
+ create mode 100644 ChatRecords/redisgroup.2019-04-20.log
+To github.com:gnuhpc/All-About-Redis.git
+   18b6a96..21d2534  master -> master
