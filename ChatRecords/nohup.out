@@ -184,3 +184,8 @@ To github.com:gnuhpc/All-About-Redis.git
  2 files changed, 6 insertions(+)
 To github.com:gnuhpc/All-About-Redis.git
    fc5e750..851554d  master -> master
+[master 0881aa6] commiting...
+ 4 files changed, 9 insertions(+), 9 deletions(-)
+ rewrite ChatRecords/redisgroup.2019-04-20.log (100%)
+To github.com:gnuhpc/All-About-Redis.git
+   851554d..0881aa6  master -> master
