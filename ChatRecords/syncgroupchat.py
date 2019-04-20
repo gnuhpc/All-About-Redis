@@ -98,10 +98,10 @@ def group_reply_media(msg):
             itchat.send('@%s@%s' % ({'Picture': 'img', 'Video': 'vid'}.get(msg['Type'], 'fil'), msg['FileName']), item['UserName'])
 
 def init_logger():
-    return setup_logger('group_logger', 'redisgroup.log')
+    return setup_logger('group_logger', 'redisgroup')
 
 #### main func ###
-main_logger = setup_logger("main_logger","main.log")
+main_logger = setup_logger("main_logger","main")
 # 扫二维码登录
 itchat.auto_login(hotReload=True,enableCmdQR=2)
 
