@@ -249,3 +249,7 @@ To github.com:gnuhpc/All-About-Redis.git
  rewrite ChatRecords/redisgroup.2019-04-20.log (100%)
 To github.com:gnuhpc/All-About-Redis.git
    b4cb331..f24eb6c  master -> master
+[master bf345a6] commiting...
+ 2 files changed, 6 insertions(+)
+To github.com:gnuhpc/All-About-Redis.git
+   f24eb6c..bf345a6  master -> master

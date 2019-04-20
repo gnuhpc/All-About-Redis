@@ -1,4 +1,4 @@
-2019-04-20 16:23:53,447  仲肥@阿里云 from Redis技术交流群2 说: 
-有意义的呀，比如做手动failover，master和slave数据一致（offset相同）的情况下切下主备关系，就不用走全量同步
-2019-04-20 16:24:38,953  仲肥@阿里云 from Redis技术交流群2 说: 
-还有在多slave的情况下，如果master挂了，挑一个slave提升为master，其他slave连这个新master也不用走全量同步
+2019-04-20 16:26:36,250  黄建@友塔游戏 from Redis技术交流群 说: 
+这个好像是5.0版本里的feature
+2019-04-20 16:27:29,807  唐唐@烽火 from Redis技术交流群2 说: 
+那old master连old slave还是走全量的吧。
