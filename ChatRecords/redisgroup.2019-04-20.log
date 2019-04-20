@@ -1,3 +1,2 @@
-2019-04-20 16:13:25,246  唐唐@烽火 from Redis技术交流群2 说: 
-嗯。没问题
-那我说的那种old master重启，加载限制条件话，是不是old mster就不能加载replication info了？
+2019-04-20 16:16:28,037  仲肥@阿里云 from Redis技术交流群2 说: 
+是的，只要以master mode重启就不能加载replication info，要保证所有master的replid都是不同的
