@@ -1,3 +1,4 @@
-2019-04-20 14:04:42,224  鹏程@CMBC from Redis技术交流群 分享链接:
- swoole的应用场景：Swoole和Redis实现的并发队列处理系统
-http://mp.weixin.qq.com/s?__biz=MzA5MTEwMTQxMg==&amp;mid=2649595575&amp;idx=1&amp;sn=06afd1daedbb1fc1eeae796c56a33a37&amp;chksm=8818bf3cbf6f362a5c63a5a08b0c130c2c5ab0a76eea4466607435ec0bbb3336e30b9296b532&amp;mpshare=1&amp;scene=1&amp;srcid=0420POeWKRLapzdvoFoCGCeU#rd
+2019-04-20 15:11:58,325  仲肥@阿里云 from Redis技术交流群2 说: 
+@唐唐@烽火 你是说集群中master node启动加载RDB时load replication info？
+2019-04-20 15:12:36,576  唐唐@烽火 from Redis技术交流群2 说: 
+嗯。
