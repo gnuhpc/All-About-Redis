@@ -2,3 +2,39 @@
 █Start auto replying.
 █Start auto replying.
 █Start auto replying.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 77, in emit
+    self.doRollover()
+  File "syncgroupchat.py", line 17, in doRollover
+    super(logging.handlers.TimedRotatingFileHandler, self).doRollover()
+AttributeError: 'super' object has no attribute 'doRollover'
+Logged from file syncgroupchat.py, line 67
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 77, in emit
+    self.doRollover()
+  File "syncgroupchat.py", line 17, in doRollover
+    super(logging.handlers.TimedRotatingFileHandler, self).doRollover()
+AttributeError: 'super' object has no attribute 'doRollover'
+Logged from file syncgroupchat.py, line 61
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 77, in emit
+    self.doRollover()
+  File "syncgroupchat.py", line 17, in doRollover
+    super(logging.handlers.TimedRotatingFileHandler, self).doRollover()
+AttributeError: 'super' object has no attribute 'doRollover'
+Logged from file syncgroupchat.py, line 67
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 77, in emit
+    self.doRollover()
+  File "syncgroupchat.py", line 17, in doRollover
+    super(logging.handlers.TimedRotatingFileHandler, self).doRollover()
+AttributeError: 'super' object has no attribute 'doRollover'
+Logged from file syncgroupchat.py, line 61
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/handlers.py", line 77, in emit
+    self.doRollover()
+  File "syncgroupchat.py", line 17, in doRollover
+    super(logging.handlers.TimedRotatingFileHandler, self).doRollover()
+AttributeError: 'super' object has no attribute 'doRollover'
+Logged from file syncgroupchat.py, line 61
+█Start auto replying.
