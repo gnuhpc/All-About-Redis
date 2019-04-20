@@ -1,5 +1,2 @@
-2019-04-20 16:00:26,345  唐唐@烽火 from Redis技术交流群2 说: 
-如果old slave提为主，
-old master重启，是要加载nodes.conf的吧。
-2019-04-20 16:00:53,565  仲肥@阿里云 from Redis技术交流群2 说: 
-要看nodes.conf里当前node是master还是slave，只有slave可以加载replication info；如果把限制条件去掉那master是可以加载replid，但是也会造成有多个master具有相同replid的情况
+2019-04-20 16:07:14,359  唐唐@烽火 from Redis技术交流群2 说: 
+多个master具有相同replid是指备份多个Rdb做恢复吗？
