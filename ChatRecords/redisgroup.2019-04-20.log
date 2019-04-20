@@ -1,2 +1,12 @@
-2019-04-20 16:16:28,037  仲肥@阿里云 from Redis技术交流群2 说: 
-是的，只要以master mode重启就不能加载replication info，要保证所有master的replid都是不同的
+2019-04-20 16:19:47,038  唐唐@烽火 from Redis技术交流群2 说: 
+如果把master node过滤掉。
+
+那
+………………………………………………
+““原来的replid和offset+1会保存在replid2和second_offset””
+………………………………………………
+这一步是不是就没有存在的意义了。
+
+我觉得这一步存在的意义，就是让old master能和old slave认亲
+2019-04-20 16:20:04,166  唐唐@烽火 from Redis技术交流群2 说: 
+[捂脸]
