@@ -23,7 +23,7 @@ class MyTimedRotatingFileHandler(logging.handlers.TimedRotatingFileHandler):
 def setup_logger(name, log_file):
     """Function setup as many loggers as you want"""
 
-    handler = MyTimedRotatingFileHandler(log_file, when='M')
+    handler = MyTimedRotatingFileHandler(log_file, when='midnight')
     handler.suffix = "%Y-%m-%d.log"
     handler.setFormatter(formatter)
 
@@ -97,22 +97,19 @@ def group_reply_media(msg):
             itchat.send('%s from %s 发送了：\n' % (username, from_chatroom), item['UserName'])
             itchat.send('@%s@%s' % ({'Picture': 'img', 'Video': 'vid'}.get(msg['Type'], 'fil'), msg['FileName']), item['UserName'])
 
-def init_logger():
-    return setup_logger('group_logger', 'redisgroup')
+if __name__ == '__main__':
+    #### main func ###
+    main_logger = setup_logger("main_logger","main")
+    record_logger = setup_logger('group_logger', 'redisgroup')
+    # 扫二维码登录
+    itchat.auto_login(hotReload=True,enableCmdQR=2)
 
-#### main func ###
-main_logger = setup_logger("main_logger","main")
-# 扫二维码登录
-itchat.auto_login(hotReload=True,enableCmdQR=2)
+    # 获取所有通讯录中的相关群聊
+    chatrooms = itchat.search_chatrooms(name="Redis技术交流群")
+    chatroom_ids = [c['UserName'] for c in chatrooms]
 
-# 获取所有通讯录中的群聊
-# 需要在微信中将需要同步的群聊都保存至通讯录
-chatrooms = itchat.search_chatrooms(name="Redis技术交流群")
-chatroom_ids = [c['UserName'] for c in chatrooms]
-main_logger.info('正在监测的群聊：%d 个' %(len(chatrooms)))
-main_logger.info(' '.join([item['NickName'] for item in chatrooms]))
+    main_logger.info('正在监测的群聊：%d 个' %(len(chatrooms)))
+    main_logger.info(' '.join([item['NickName'] for item in chatrooms]))
 
-record_logger = init_logger()
-
-# 开始监测
-itchat.run()
+    # 开始监测
+    itchat.run()
