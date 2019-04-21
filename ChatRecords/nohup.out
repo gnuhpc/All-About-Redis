@@ -1,1 +1,10 @@
 █Start auto replying.
+[master f30aa4f] commiting...
+ 5 files changed, 7 insertions(+)
+ create mode 100644 ChatRecords/main
+ create mode 100644 ChatRecords/main.2019-04-21.log
+ create mode 100644 ChatRecords/nohup.out
+ create mode 100644 ChatRecords/redisgroup
+ create mode 100644 ChatRecords/redisgroup.2019-04-21.log
+To github.com:gnuhpc/All-About-Redis.git
+   614c4c8..f30aa4f  master -> master
