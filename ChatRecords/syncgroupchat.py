@@ -43,28 +43,32 @@ def group_reply_text(msg):
     # 发送者的昵称
     username = msg['ActualNickName']
 
-    from_chatroom = ''
+    #from_chatroom = ''
 
     # 消息并不是来自于需要同步的群
     if not chatroom_id in chatroom_ids:
         return
 
-    for item in chatrooms:
-        if item['UserName'] == chatroom_id:
-            from_chatroom = item['NickName']
+    #for item in chatrooms:
+    #    if item['UserName'] == chatroom_id:
+    #        from_chatroom = item['NickName']
 
     # 根据消息类型转发至其他需要同步消息的群聊
     if msg['Type'] == TEXT:
         for item in chatrooms:
             if not item['UserName'] == chatroom_id:
-                itchat.send('%s from %s 说: \n%s' % (username, from_chatroom, msg['Content']), item['UserName'])
-                record_logger.info('%s from %s 说: \n%s' % (username, from_chatroom, msg['Content']))
+                #itchat.send('%s from %s 说: \n%s' % (username, from_chatroom, msg['Content']), item['UserName'])
+                itchat.send('%s 说: \n%s' % (username, msg['Content']), item['UserName'])
+                #record_logger.info('%s from %s 说: \n%s' % (username, from_chatroom, msg['Content']))
+                record_logger.info('%s 说: \n%s' % (username, msg['Content']))
 
     elif msg['Type'] == SHARING:
         for item in chatrooms:
             if not item['UserName'] == chatroom_id:
-                itchat.send('%s from %s 分享链接:\n %s\n%s' % (username,from_chatroom, msg['Text'], msg['Url']), item['UserName'])
-                record_logger.info('%s from %s 分享链接:\n %s\n%s' % (username,from_chatroom, msg['Text'], msg['Url']))
+                #itchat.send('%s from %s 分享链接:\n %s\n%s' % (username,from_chatroom, msg['Text'], msg['Url']), item['UserName'])
+                #record_logger.info('%s from %s 分享链接:\n %s\n%s' % (username,from_chatroom, msg['Text'], msg['Url']))
+                itchat.send('%s 分享链接:\n %s\n%s' % (username, msg['Text'], msg['Url']), item['UserName'])
+                record_logger.info('%s 分享链接:\n %s\n%s' % (username, msg['Text'], msg['Url']))
 
 # 自动回复图片等类别的群聊消息
 # isGroupChat=True表示为群聊消息
@@ -94,7 +98,9 @@ def group_reply_media(msg):
     # 转发至其他需要同步消息的群聊
     for item in chatrooms:
         if not item['UserName'] == chatroom_id:
-            itchat.send('%s from %s 发送了：\n' % (username, from_chatroom), item['UserName'])
+            #itchat.send('%s from %s 发送了：\n' % (username, from_chatroom), item['UserName'])
+            #itchat.send('@%s@%s' % ({'Picture': 'img', 'Video': 'vid'}.get(msg['Type'], 'fil'), msg['FileName']), item['UserName'])
+            itchat.send('%s 发送了：\n' % (username), item['UserName'])
             itchat.send('@%s@%s' % ({'Picture': 'img', 'Video': 'vid'}.get(msg['Type'], 'fil'), msg['FileName']), item['UserName'])
 
 if __name__ == '__main__':
