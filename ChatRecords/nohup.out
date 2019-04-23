@@ -8,3 +8,22 @@
  create mode 100644 ChatRecords/redisgroup.2019-04-21.log
 To github.com:gnuhpc/All-About-Redis.git
    614c4c8..f30aa4f  master -> master
+[master 789d34e] commiting...
+ 2 files changed, 10 insertions(+)
+To github.com:gnuhpc/All-About-Redis.git
+   f30aa4f..789d34e  master -> master
+█Start auto replying.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 306, in sync_check
+    if not isinstance(e.args[0].args[1], BadStatusLine):
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 306, in sync_check
+    if not isinstance(e.args[0].args[1], BadStatusLine):
+IndexError: tuple index out of range
+
