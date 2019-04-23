@@ -27,3 +27,10 @@ Traceback (most recent call last):
     if not isinstance(e.args[0].args[1], BadStatusLine):
 IndexError: tuple index out of range
 
+[master ee67160] commiting...
+ 5 files changed, 183 insertions(+), 4 deletions(-)
+ create mode 100644 ChatRecords/190422-112220.png
+ create mode 100644 ChatRecords/main.2019-04-22.log
+ create mode 100644 ChatRecords/redisgroup.2019-04-22.log
+To github.com:gnuhpc/All-About-Redis.git
+   286ec95..ee67160  master -> master
