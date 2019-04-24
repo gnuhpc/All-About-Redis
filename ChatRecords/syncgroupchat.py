@@ -16,7 +16,7 @@ class MyTimedRotatingFileHandler(logging.handlers.TimedRotatingFileHandler):
     def doRollover(self):
         super(MyTimedRotatingFileHandler,self).doRollover()
         main_logger.info("Records log has been rotating...")
-        call('git add -u', shell = True)
+        call('git add .', shell = True)
         call('git reset -- ChatRecords/itchat.pkl', shell = True)
         call('git commit -m "commiting..."', shell = True)
         call('git push origin master', shell = True)
