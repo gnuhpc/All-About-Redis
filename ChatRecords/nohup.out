@@ -98,3 +98,8 @@ Traceback (most recent call last):
     if not isinstance(e.args[0].args[1], BadStatusLine):
 IndexError: tuple index out of range
 
+[master b6f6e4b] commiting...
+ 3 files changed, 8 insertions(+), 12 deletions(-)
+ rewrite ChatRecords/redisgroup (100%)
+To github.com:gnuhpc/All-About-Redis.git
+   e51486f..b6f6e4b  master -> master
