@@ -1403,3 +1403,12 @@ Please scan the QR code to log in.
  copy ChatRecords/{redisgroup => redisgroup.2019-04-25.log} (100%)
 To github.com:gnuhpc/All-About-Redis.git
    0ff3f47..97ad671  master -> master
+[master 3c7d5c3] commiting...
+ 7 files changed, 24 insertions(+), 6 deletions(-)
+ create mode 100644 ChatRecords/190426-112401.png
+ create mode 100644 ChatRecords/190426-112416.png
+ create mode 100644 ChatRecords/190426-112645.png
+ create mode 100644 ChatRecords/main.2019-04-26.log
+ create mode 100644 ChatRecords/redisgroup.2019-04-26.log
+To github.com:gnuhpc/All-About-Redis.git
+   97ad671..3c7d5c3  master -> master
