@@ -1397,3 +1397,9 @@ Downloading QR code.
 ██████████████████████████████████████████████████████████████████████████████
 Please scan the QR code to log in.
 █Start auto replying.
+[master 97ad671] commiting...
+ 5 files changed, 44295 insertions(+), 651 deletions(-)
+ rewrite ChatRecords/redisgroup (100%)
+ copy ChatRecords/{redisgroup => redisgroup.2019-04-25.log} (100%)
+To github.com:gnuhpc/All-About-Redis.git
+   0ff3f47..97ad671  master -> master
