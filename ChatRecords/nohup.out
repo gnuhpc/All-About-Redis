@@ -1482,3 +1482,10 @@ To github.com:gnuhpc/All-About-Redis.git
  2 files changed, 9 insertions(+)
 To github.com:gnuhpc/All-About-Redis.git
    e9ba78b..f9ff6e4  master -> master
+[master 4e6d383] commiting...
+ 5 files changed, 10 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/190504-084546.png
+ create mode 100644 ChatRecords/main.2019-05-04.log
+ create mode 100644 ChatRecords/redisgroup.2019-05-04.log
+To github.com:gnuhpc/All-About-Redis.git
+   f9ff6e4..4e6d383  master -> master
