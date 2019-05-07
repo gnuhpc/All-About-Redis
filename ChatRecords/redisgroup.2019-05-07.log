@@ -1,0 +1,32 @@
+2019-05-07 09:48:03,259  Slogen@didi 说: 
+@Rui Gu@Redisson hi. 我们线上redisson报错
+2019-05-07 09:48:15,387  Slogen@didi 说: 
+什么情况下会报这个错啊
+2019-05-07 09:48:28,334  Slogen@didi 说: 
+org.redisson.client.RedisTimeoutException: Unable to send command! Node source: NodeSource
+2019-05-07 14:51:18,521  Rui Gu@Redisson 说: 
+@Slogen@didi 连接数不够
+2019-05-07 15:27:20,916  Slogen@didi 说: 
+线上什么都没改，流量也没发生变化，突然就出现这个情况，https://www.cnblogs.com/junge8618/p/9241927.html 跟这个文章里面描述的差不多
+2019-05-07 15:27:33,872  Slogen@didi 说: 
+升级了redisson版本，就OK了
+2019-05-07 15:28:18,499  Slogen@didi 说: 
+升级到了3.10.6
+2019-05-07 15:29:01,260  Rui Gu@Redisson 说: 
+@Slogen@didi 他的原因是远程主机强迫关闭了一个现有的连接
+2019-05-07 15:30:10,643  Rui Gu@Redisson 说: 
+是因为长时间没有消息发送，防火墙把连接断了
+2019-05-07 15:30:42,786  Slogen@didi 说: 
+但是我们的代码里面是在一个定时任务里面去redis获取数据，1.5s执行一次
+2019-05-07 15:30:44,163  Rui Gu@Redisson 说: 
+你也是这个问题吗？
+2019-05-07 15:31:42,489  Rui Gu@Redisson 说: 
+并大量多大？
+2019-05-07 19:58:49,120  伍旭飞@腾讯 说: 
+@Rui Gu@Redisson 这个一旦连接断开，不会踢掉或者重连吗
+2019-05-07 19:59:24,148  Rui Gu@Redisson 说: 
+@伍旭飞@腾讯 你说的是@Slogen@didi 的问题？
+2019-05-07 20:15:01,706  伍旭飞@腾讯 说: 
+对
+2019-05-07 20:19:08,475  邓伟@jit 说: 
+即使定时维持连接，也会有其他原因完成网络中断
