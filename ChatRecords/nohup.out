@@ -1549,3 +1549,16 @@ hint: not have locally. This is usually caused by another repository pushing
 hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[master f24e724] commiting...
+ 5 files changed, 72 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/190508-182850.png
+ create mode 100644 ChatRecords/main.2019-05-08.log
+ create mode 100644 ChatRecords/redisgroup.2019-05-08.log
+To github.com:gnuhpc/All-About-Redis.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:gnuhpc/All-About-Redis.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
