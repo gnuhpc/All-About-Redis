@@ -1572,3 +1572,12 @@ hint: not have locally. This is usually caused by another repository pushing
 hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[master 0f0f465] commiting...
+ 6 files changed, 93 insertions(+), 71 deletions(-)
+ create mode 100644 ChatRecords/190509-103750.png
+ create mode 100644 ChatRecords/190509-164950.png
+ create mode 100644 ChatRecords/main.2019-05-09.log
+ rewrite ChatRecords/redisgroup (100%)
+ copy ChatRecords/{redisgroup => redisgroup.2019-05-09.log} (54%)
+To github.com:gnuhpc/All-About-Redis.git
+   e36d24d..0f0f465  master -> master
