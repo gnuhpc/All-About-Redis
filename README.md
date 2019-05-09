@@ -11,7 +11,7 @@
 
 本手册符合共同创作协议, 协议文本见 [http://creativecommons.net.cn/licenses/meet-the-licenses/](http://creativecommons.net.cn/licenses/meet-the-licenses/)
 
-有不正确的地方，请通过gnuhpc@weixin或者huangpengcheng#cmbc.com.cn (:s/#/@)联系我。
+有不正确的地方，请通过gnuhpc@weixin或者gnuhpc#gmail.com (:s/#/@)联系我。
 
 如果你觉得这些内容有帮助，欢迎Star我，也欢迎打赏 ^_^ ，我会不定期公布支持我的好朋友名单。
 
@@ -40,15 +40,6 @@ https://book.douban.com/subject/30227261/
 ![](images/xingqiu.jpg)
 
 此Repo的ChatRecords里面为此两个群的聊天记录
-
-## **长期招聘：** ##
-我现在所在团队负责我行全行大数据基础架构平台和产品的建设和维护工作，待遇大于等于一线互联网，技术实力银行业大数据基础架构前三名，较之同规模的互联网团队也有技术特点。
-
-坐标：北京市顺义区（公司有市内多趟班车来往，开车反方向无压力，团队崇尚任务驱动型，基本不加班）。
-
-欢迎期待工作生活平衡又希望技术上有所精进的同学联系，有意者请发简历至 gnuhpc@foxmail.com 或加微信gnuhpc，具体要求如下：
-
-![](images/lookingfor.jpg)
 
 
 ## **赞助名单（由于微信面对面收钱无法显示，停止更新）：** ##
