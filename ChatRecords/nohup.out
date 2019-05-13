@@ -1644,3 +1644,9 @@ IndexError: tuple index out of range
 
 LOG OUT!
 █Start auto replying.
+[master c3b0ce2] commiting...
+ 4 files changed, 6 insertions(+), 89 deletions(-)
+ rewrite ChatRecords/redisgroup (100%)
+ copy ChatRecords/{redisgroup => redisgroup.2019-05-10.log} (100%)
+To github.com:gnuhpc/All-About-Redis.git
+   6e20657..c3b0ce2  master -> master
