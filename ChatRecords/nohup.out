@@ -1650,3 +1650,9 @@ LOG OUT!
  copy ChatRecords/{redisgroup => redisgroup.2019-05-10.log} (100%)
 To github.com:gnuhpc/All-About-Redis.git
    6e20657..c3b0ce2  master -> master
+[master b67ef7c] commiting...
+ 4 files changed, 16 insertions(+), 6 deletions(-)
+ create mode 100644 ChatRecords/main.2019-05-12.log
+ create mode 100644 ChatRecords/redisgroup.2019-05-12.log
+To github.com:gnuhpc/All-About-Redis.git
+   c3b0ce2..b67ef7c  master -> master
