@@ -1709,3 +1709,10 @@ LOG OUT!
  create mode 100644 ChatRecords/redisgroup.2019-05-13.log
 To github.com:gnuhpc/All-About-Redis.git
    5acb2f4..028788a  master -> master
+[master d1b6772] commiting...
+ 5 files changed, 73 insertions(+), 6 deletions(-)
+ create mode 100644 ChatRecords/190514-200357.png
+ create mode 100644 ChatRecords/main.2019-05-14.log
+ create mode 100644 ChatRecords/redisgroup.2019-05-14.log
+To github.com:gnuhpc/All-About-Redis.git
+   028788a..d1b6772  master -> master
