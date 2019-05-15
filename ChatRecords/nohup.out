@@ -1704,3 +1704,8 @@ IndexError: tuple index out of range
 
 LOG OUT!
 █Start auto replying.
+[master 028788a] commiting...
+ 5 files changed, 21645 insertions(+), 331 deletions(-)
+ create mode 100644 ChatRecords/redisgroup.2019-05-13.log
+To github.com:gnuhpc/All-About-Redis.git
+   5acb2f4..028788a  master -> master
