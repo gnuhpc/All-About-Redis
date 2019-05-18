@@ -1837,3 +1837,10 @@ Traceback (most recent call last):
     if not isinstance(e.args[0].args[1], BadStatusLine):
 IndexError: tuple index out of range
 
+[master ee15933] commiting...
+ 4 files changed, 119 insertions(+), 6 deletions(-)
+ create mode 100644 ChatRecords/main.2019-05-17.log
+ create mode 100644 ChatRecords/redisgroup.2019-05-17.log
+Warning: Permanently added the RSA host key for IP address '192.30.255.113' to the list of known hosts.
+To git@github.com:gnuhpc/All-About-Redis.git
+   c5c3243..ee15933  master -> master
