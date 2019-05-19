@@ -1844,3 +1844,7 @@ IndexError: tuple index out of range
 Warning: Permanently added the RSA host key for IP address '192.30.255.113' to the list of known hosts.
 To git@github.com:gnuhpc/All-About-Redis.git
    c5c3243..ee15933  master -> master
+[master 123c768] commiting...
+ 2 files changed, 8 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   ee15933..123c768  master -> master
