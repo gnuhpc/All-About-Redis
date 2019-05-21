@@ -1865,3 +1865,8 @@ To git@github.com:gnuhpc/All-About-Redis.git
  create mode 100644 ChatRecords/redisgroup.2019-05-19.log
 To git@github.com:gnuhpc/All-About-Redis.git
    9b1a8de..5036761  master -> master
+[master 806b004] commiting...
+ 2 files changed, 7 insertions(+)
+Warning: Permanently added the RSA host key for IP address '192.30.253.113' to the list of known hosts.
+To git@github.com:gnuhpc/All-About-Redis.git
+   5036761..806b004  master -> master
