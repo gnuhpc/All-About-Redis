@@ -1870,3 +1870,10 @@ To git@github.com:gnuhpc/All-About-Redis.git
 Warning: Permanently added the RSA host key for IP address '192.30.253.113' to the list of known hosts.
 To git@github.com:gnuhpc/All-About-Redis.git
    5036761..806b004  master -> master
+[master 57bcbeb] commiting...
+ 5 files changed, 92 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/190520-063317.png
+ create mode 100644 ChatRecords/main.2019-05-20.log
+ create mode 100644 ChatRecords/redisgroup.2019-05-20.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   806b004..57bcbeb  master -> master
