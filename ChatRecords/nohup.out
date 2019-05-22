@@ -1883,3 +1883,10 @@ To git@github.com:gnuhpc/All-About-Redis.git
    57bcbeb..857fa88  master -> master
 LOG OUT!
 █Start auto replying.
+[master a93036a] commiting...
+ 5 files changed, 2958 insertions(+), 46298 deletions(-)
+ rewrite ChatRecords/itchat.pkl (95%)
+ create mode 100644 ChatRecords/main.2019-05-21.log
+ create mode 100644 ChatRecords/redisgroup.2019-05-21.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   857fa88..a93036a  master -> master
