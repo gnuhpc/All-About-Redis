@@ -1948,3 +1948,7 @@ IndexError: tuple index out of range
  create mode 100644 ChatRecords/redisgroup.2019-05-23.log
 To git@github.com:gnuhpc/All-About-Redis.git
    41e2451..0e23ae9  master -> master
+[master f12f4a1] commiting...
+ 2 files changed, 8 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   0e23ae9..f12f4a1  master -> master
