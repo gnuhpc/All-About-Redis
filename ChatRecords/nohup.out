@@ -1959,3 +1959,22 @@ To git@github.com:gnuhpc/All-About-Redis.git
  create mode 100644 ChatRecords/redisgroup.2019-05-24.log
 To git@github.com:gnuhpc/All-About-Redis.git
    f12f4a1..f296426  master -> master
+[master 13cd96f] commiting...
+ 2 files changed, 8 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   f296426..13cd96f  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+SSLError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=583ICBmrr+OXA2ZA&skey=@crypt_49509d7f_f3549e09c174408522ef186ac2b6b55e&pass_ticket=gXdVccTfAU4Jpq9hkU%2FhXnOo9pL8lKtgltZta9RZ4mg%3D (Caused by SSLError(SSLEOFError(8, u'EOF occurred in violation of protocol (_ssl.c:579)'),))
+
