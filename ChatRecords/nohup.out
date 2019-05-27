@@ -2003,3 +2003,9 @@ Traceback (most recent call last):
     raise SSLError(e, request=request)
 SSLError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=583ICBmrr+OXA2ZA&skey=@crypt_49509d7f_f3549e09c174408522ef186ac2b6b55e&pass_ticket=gXdVccTfAU4Jpq9hkU%2FhXnOo9pL8lKtgltZta9RZ4mg%3D (Caused by SSLError(SSLEOFError(8, u'EOF occurred in violation of protocol (_ssl.c:579)'),))
 
+[master 13a2afd] commiting...
+ 4 files changed, 49 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-05-26.log
+ create mode 100644 ChatRecords/redisgroup.2019-05-26.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   45a3545..13a2afd  master -> master
