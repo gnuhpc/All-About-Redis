@@ -2043,3 +2043,9 @@ Traceback (most recent call last):
     raise ConnectionError(err, request=request)
 ConnectionError: ('Connection aborted.', BadStatusLine("''",))
 
+[master 3b95b45] commiting...
+ 4 files changed, 50 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-05-27.log
+ create mode 100644 ChatRecords/redisgroup.2019-05-27.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   a8e0126..3b95b45  master -> master
