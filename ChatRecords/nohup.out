@@ -2093,3 +2093,9 @@ To git@github.com:gnuhpc/All-About-Redis.git
  2 files changed, 7 insertions(+)
 To git@github.com:gnuhpc/All-About-Redis.git
    726fe10..b21e3c2  master -> master
+[master cc8aee3] commiting...
+ 4 files changed, 39 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-05-29.log
+ create mode 100644 ChatRecords/redisgroup.2019-05-29.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   b21e3c2..cc8aee3  master -> master
