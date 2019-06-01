@@ -2110,3 +2110,23 @@ To git@github.com:gnuhpc/All-About-Redis.git
 To git@github.com:gnuhpc/All-About-Redis.git
    84c770f..8e0c6b9  master -> master
 █Start auto replying.
+[master 5b7f919] commiting...
+ Committer: root <root@gnuhpc.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 5 files changed, 876 insertions(+), 748 deletions(-)
+ create mode 100644 ChatRecords/main.2019-06-01.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-01.log
+Warning: Permanently added the RSA host key for IP address '192.30.255.113' to the list of known hosts.
+remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To git@github.com:gnuhpc/All-About-Redis.git
+   2df081b..5b7f919  master -> master
