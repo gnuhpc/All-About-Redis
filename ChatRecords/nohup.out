@@ -2167,3 +2167,4 @@ If the identity used for this commit is wrong, you can fix it with:
 remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  33% (1/3)   [Kremote: Resolving deltas:  66% (2/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
 To git@github.com:gnuhpc/All-About-Redis.git
    c3aba31..f0d1a48  master -> master
+█Start auto replying.
