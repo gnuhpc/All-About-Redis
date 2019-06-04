@@ -2168,3 +2168,9 @@ remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  33% (1/3) 
 To git@github.com:gnuhpc/All-About-Redis.git
    c3aba31..f0d1a48  master -> master
 █Start auto replying.
+[master fc77fca] commiting...
+ 5 files changed, 654 insertions(+), 513 deletions(-)
+ create mode 100644 ChatRecords/main.2019-06-04.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-04.log
+To github.com:gnuhpc/All-About-Redis.git
+   f7294cf..fc77fca  master -> master
