@@ -2178,3 +2178,14 @@ To github.com:gnuhpc/All-About-Redis.git
  2 files changed, 7 insertions(+)
 To github.com:gnuhpc/All-About-Redis.git
    fc77fca..e39087f  master -> master
+[master 1cdbd7b] commiting...
+ 8 files changed, 139 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/190605-212106.png
+ create mode 100644 ChatRecords/190605-212301.png
+ create mode 100644 ChatRecords/190605-212643.png
+ create mode 100644 ChatRecords/190606-010209.png
+ create mode 100644 ChatRecords/main.2019-06-05.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-05.log
+Warning: Permanently added the RSA host key for IP address '192.30.255.112' to the list of known hosts.
+To github.com:gnuhpc/All-About-Redis.git
+   e39087f..1cdbd7b  master -> master
