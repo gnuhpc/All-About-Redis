@@ -2189,3 +2189,49 @@ To github.com:gnuhpc/All-About-Redis.git
 Warning: Permanently added the RSA host key for IP address '192.30.255.112' to the list of known hosts.
 To github.com:gnuhpc/All-About-Redis.git
    e39087f..1cdbd7b  master -> master
+[master c84fadc] commiting...
+ 2 files changed, 12 insertions(+)
+To github.com:gnuhpc/All-About-Redis.git
+   1cdbd7b..c84fadc  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 892, in emit
+    self.flush()
+  File "/usr/lib/python2.7/logging/__init__.py", line 852, in flush
+    self.stream.flush()
+IOError: [Errno 28] No space left on device
+Logged from file syncgroupchat.py, line 18
+error: unable to create temporary file: No space left on device
+error: ChatRecords/nohup.out: failed to insert into database
+error: unable to index file ChatRecords/nohup.out
+fatal: updating files failed
+fatal: Could not write new index file.
+Unstaged changes after reset:
+M	ChatRecords/main
+M	ChatRecords/nohup.out
+fatal: unable to write new_index file
+Warning: Permanently added the RSA host key for IP address '192.30.255.113' to the list of known hosts.
+Everything up-to-date
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 892, in emit
+    self.flush()
+  File "/usr/lib/python2.7/logging/__init__.py", line 852, in flush
+    self.stream.flush()
+IOError: [Errno 28] No space left on device
+Logged from file syncgroupchat.py, line 18
+error: unable to create temporary file: No space left on device
+error: ChatRecords/nohup.out: failed to insert into database
+error: unable to index file ChatRecords/nohup.out
+fatal: updating files failed
+fatal: Could not write new index file.
+Unstaged changes after reset:
+M	ChatRecords/main
+M	ChatRecords/nohup.out
+fatal: unable to write new_index file
+Everything up-to-date
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 892, in emit
+    self.flush()
+  File "/usr/lib/python2.7/logging/__init__.py", line 852, in flush
+    self.stream.flush()
+IOError: [Errno 28] No space left on device
+Logged from file syncgroupchat.py, line 72
