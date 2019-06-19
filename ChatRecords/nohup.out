@@ -2333,3 +2333,9 @@ Traceback (most recent call last):
     raise ConnectionError(err, request=request)
 ConnectionError: ('Connection aborted.', error(104, 'Connection reset by peer'))
 
+[master b9cb2f0] commiting...
+ 5 files changed, 1011 insertions(+), 1088 deletions(-)
+ create mode 100644 ChatRecords/main.2019-06-18.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-18.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   77e7e46..b9cb2f0  master -> master
