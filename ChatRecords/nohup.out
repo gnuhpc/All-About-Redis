@@ -2317,3 +2317,19 @@ To github.com:gnuhpc/All-About-Redis.git
  create mode 100644 ChatRecords/redisgroup.2019-06-16.log
 To github.com:gnuhpc/All-About-Redis.git
    c9871c0..05d5f61  master -> master
+█Start auto replying.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 303, in sync_check
+    r = self.s.get(url, params=params, headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(104, 'Connection reset by peer'))
+
