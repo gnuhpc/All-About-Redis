@@ -2351,3 +2351,82 @@ To git@github.com:gnuhpc/All-About-Redis.git
  create mode 100644 ChatRecords/redisgroup.2019-06-19.log
 To git@github.com:gnuhpc/All-About-Redis.git
    7b3939c..2aa6488  master -> master
+[master a0c66b9] commiting...
+ 2 files changed, 9 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   2aa6488..a0c66b9  master -> master
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 875, in emit
+    self.flush()
+  File "/usr/lib64/python2.7/logging/__init__.py", line 835, in flush
+    self.stream.flush()
+IOError: [Errno 122] Disk quota exceeded
+Logged from file syncgroupchat.py, line 18
+error: unable to create temporary file: Disk quota exceeded
+error: ChatRecords/nohup.out: failed to insert into database
+error: unable to index file ChatRecords/nohup.out
+fatal: updating files failed
+fatal: Could not write new index file.
+Unstaged changes after reset:
+M	ChatRecords/main
+M	ChatRecords/nohup.out
+fatal: unable to write new_index file
+Everything up-to-date
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 875, in emit
+    self.flush()
+  File "/usr/lib64/python2.7/logging/__init__.py", line 835, in flush
+    self.stream.flush()
+IOError: [Errno 122] Disk quota exceeded
+Logged from file syncgroupchat.py, line 18
+error: unable to create temporary file: Disk quota exceeded
+error: ChatRecords/nohup.out: failed to insert into database
+error: unable to index file ChatRecords/nohup.out
+fatal: updating files failed
+fatal: Could not write new index file.
+Unstaged changes after reset:
+M	ChatRecords/main
+M	ChatRecords/nohup.out
+fatal: unable to write new_index file
+Everything up-to-date
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 875, in emit
+    self.flush()
+  File "/usr/lib64/python2.7/logging/__init__.py", line 835, in flush
+    self.stream.flush()
+IOError: [Errno 122] Disk quota exceeded
+Logged from file syncgroupchat.py, line 72
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 875, in emit
+    self.flush()
+  File "/usr/lib64/python2.7/logging/__init__.py", line 835, in flush
+    self.stream.flush()
+IOError: [Errno 122] Disk quota exceeded
+Logged from file syncgroupchat.py, line 64
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 875, in emit
+    self.flush()
+  File "/usr/lib64/python2.7/logging/__init__.py", line 835, in flush
+    self.stream.flush()
+IOError: [Errno 122] Disk quota exceeded
+Logged from file syncgroupchat.py, line 64
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 875, in emit
+    self.flush()
+  File "/usr/lib64/python2.7/logging/__init__.py", line 835, in flush
+    self.stream.flush()
+IOError: [Errno 122] Disk quota exceeded
+Logged from file syncgroupchat.py, line 64
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 875, in emit
+    self.flush()
+  File "/usr/lib64/python2.7/logging/__init__.py", line 835, in flush
+    self.stream.flush()
+IOError: [Errno 122] Disk quota exceeded
+Logged from file syncgroupchat.py, line 64
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 875, in emit
+    self.flush()
+  File "/usr/lib64/python2.7/logging/__init__.py", line 835, in flush
+    self.stream.flush()
+IOError: 
