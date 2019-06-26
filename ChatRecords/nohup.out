@@ -2521,3 +2521,52 @@ SSLError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded
  create mode 100644 ChatRecords/redisgroup.2019-06-24.log
 To git@github.com:gnuhpc/All-About-Redis.git
    a1247b0..02d1f00  master -> master
+[master 0d41949] commiting...
+ 2 files changed, 8 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   02d1f00..0d41949  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+SSLError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=MWT1pOWuuVsa56IQ&skey=@crypt_49509d7f_4d2d51811592a335e15f07a0715abaee&pass_ticket=FdtEomx2ejhauIRl55F4n4hhUdnNRr3ueVL%2FTHCjMCc%3D (Caused by SSLError(SSLEOFError(8, u'EOF occurred in violation of protocol (_ssl.c:579)'),))
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 303, in sync_check
+    r = self.s.get(url, params=params, headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(104, 'Connection reset by peer'))
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 303, in sync_check
+    r = self.s.get(url, params=params, headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(104, 'Connection reset by peer'))
+
