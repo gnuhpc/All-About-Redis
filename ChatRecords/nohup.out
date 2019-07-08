@@ -2854,3 +2854,14 @@ To git@github.com:gnuhpc/All-About-Redis.git
  create mode 100644 ChatRecords/redisgroup.2019-07-05.log
 To git@github.com:gnuhpc/All-About-Redis.git
    ed002ba..743d16a  master -> master
+[master ef66a7c] commiting...
+ 2 files changed, 8 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   743d16a..ef66a7c  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 306, in sync_check
+    if not isinstance(e.args[0].args[1], BadStatusLine):
+IndexError: tuple index out of range
+
