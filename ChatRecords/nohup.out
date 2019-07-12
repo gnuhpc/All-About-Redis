@@ -3012,3 +3012,15 @@ IndexError: tuple index out of range
  create mode 100644 ChatRecords/redisgroup.2019-07-10.log
 To git@github.com:gnuhpc/All-About-Redis.git
    835c70c..193db2c  master -> master
+[master 911d368] commiting...
+ 2 files changed, 7 insertions(+)
+Warning: Permanently added the RSA host key for IP address '140.82.114.4' to the list of known hosts.
+To git@github.com:gnuhpc/All-About-Redis.git
+   193db2c..911d368  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 306, in sync_check
+    if not isinstance(e.args[0].args[1], BadStatusLine):
+IndexError: tuple index out of range
+
