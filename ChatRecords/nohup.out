@@ -3143,3 +3143,22 @@ IndexError: tuple index out of range
  create mode 100644 ChatRecords/redisgroup.2019-07-15.log
 To git@github.com:gnuhpc/All-About-Redis.git
    31b3236..868f973  master -> master
+[master cb7df0a] commiting...
+ 2 files changed, 7 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   868f973..cb7df0a  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+
