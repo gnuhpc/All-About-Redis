@@ -2110,3 +2110,27 @@ To git@github.com:gnuhpc/All-About-Redis.git
 To git@github.com:gnuhpc/All-About-Redis.git
    84c770f..8e0c6b9  master -> master
 █Start auto replying.
+[master 0d6d698] commiting...
+ Committer: root <root@gnuhpc.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 22182 insertions(+), 417 deletions(-)
+ create mode 100644 ChatRecords/redisgroup.2019-06-01.log
+To git@github.com:gnuhpc/All-About-Redis.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:gnuhpc/All-About-Redis.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
