@@ -1,0 +1,11 @@
+2019-06-06 01:03:07,310  xinxinbai@陌陌 说: 
+主从不一致，过期键的问题应该只有主库dump的时候才会发生
+2019-06-06 01:04:31,485  xinxinbai@陌陌 说: 
+我记得 masterhost==null的时候，表示自己是主库。也就是说从库本来就不处理这套过期键的逻辑。
+2019-06-06 01:05:07,323  xinxinbai@陌陌 说: 
+这也符合只读从库不会的数据库状态是完全由主库决定的这个逻辑
+2019-06-06 01:14:34,588  xinxinbai@陌陌 说: 
+这也符合只读从库的数据库状态是完全由主库决定的，这个逻辑
+2019-06-06 04:36:12,909  鹏程@CMBC 分享链接:
+ #每日分享 「链接」 Counting Distinct Users in Real-Time With Redis Using Low Memory - DZone Database
+https://t.zsxq.com/jQvbaem

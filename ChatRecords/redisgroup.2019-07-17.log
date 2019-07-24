@@ -1,0 +1,51 @@
+2019-07-17 08:45:27,242  洋烊@借贷宝 说: 
+我记得之前看过一篇博客是redis会在一些场景执行config rewrite，谁再贴个链接呗
+2019-07-17 08:52:42,154  白馨@陌陌 说: 
+建立主从关系后，主库定期给从库发送ping（在replicationCron中）为什么这个ping要记录到backlog中，没有必要吧。
+2019-07-17 08:52:43,649  白馨@陌陌 说: 
+/* First, send PING according to ping_slave_period. */
+    if ((replication_cron_loops % server.repl_ping_slave_period) == 0 &&
+        listLength(server.slaves))
+    {
+        ping_argv[0] = createStringObject("PING",4);
+        replicationFeedSlaves(server.slaves, server.slaveseldb,
+            ping_argv, 1);
+        decrRefCount(ping_argv[0]);
+    }
+2019-07-17 08:57:16,968  杨力@喜马拉雅 说: 
+@白馨@陌陌 redis4.0开始确实是这样，不清楚为什么；这样还存在一个问题就是slave升级为new-master后，old-master中由于写入“ping”命令导致offset和slave不一致，最终导致old-master与new-master需要全量数据同步
+2019-07-17 09:01:26,006  陈宝仪@Redis-replicator 说: 
+同步完rdb之后， 主如果2个小时内没有任何写入，那么不发ping的情况下并且slave不回replconf ack的情况下socket应该会断开，我感觉这个ping就是在主没有任何命令同步给从的情况下， 维持连接用的
+2019-07-17 09:07:29,520  陈宝仪@Redis-replicator 说: 
+从上有个参数repl-timeout, 如果主不发这个ping ,会触发这个timeout导致断开连接
+2019-07-17 09:07:39,776  白馨@陌陌 说: 
+这个是维持连接 一般10s 发一次，我的意思是为什么要记入backlog里面
+2019-07-17 09:07:51,130  杨力@喜马拉雅 说: 
+如果只是维持连接，没必要将ping命令写入backlog中
+2019-07-17 09:09:03,307  陈宝仪@Redis-replicator 说: 
+不记录backlog里的话， slave计算offset的时候还要刨除掉ping的offset
+2019-07-17 09:09:55,329  陈宝仪@Redis-replicator 说: 
+而且不仅仅是ping记录到offset里了，master给slave发的replconf getack也记录到backlog里了
+2019-07-17 09:10:31,551  白馨@陌陌 说: 
+恩 master和slave都需要同时刨除
+2019-07-17 09:10:53,283  陈宝仪@Redis-replicator 说: 
+master给slave发的全部命令都记录到backlog里是实现psync最简单的方法
+2019-07-17 09:11:18,849  白馨@陌陌 说: 
+要刨除 实现起来确实比较复杂
+2019-07-17 09:12:49,495  陈宝仪@Redis-replicator 说: 
+感觉就是为了实现简单[呲牙]
+2019-07-17 09:20:18,047  白馨@陌陌 说: 
+”master给slave发的replconf getack也记录到backlog里了“？@陈宝仪@Redis-replicator
+2019-07-17 09:20:43,468  白馨@陌陌 说: 
+这个我只记得  从库给自己自己的主库
+每10s 发送 REPLCONF ACK reploff
+主库更新lastinteraction
+2019-07-17 09:21:35,685  陈宝仪@Redis-replicator 说: 
+主库也可以主动询问slave ack
+2019-07-17 09:21:47,002  陈宝仪@Redis-replicator 说: 
+这个时候发的就是replconf getack
+2019-07-17 09:22:00,666  白馨@陌陌 说: 
+哦  好的 之前没注意 我看看
+2019-07-17 10:31:43,772  贵粱@hytera 分享链接:
+ 小试牛刀，不服来战
+https://mp.weixin.qq.com/mp/waerrpage?appid=wx7c8d593b2c3a7703&amp;type=upgrade&amp;upgradetype=3#wechat_redirect

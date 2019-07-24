@@ -2110,6 +2110,7 @@ To git@github.com:gnuhpc/All-About-Redis.git
 To git@github.com:gnuhpc/All-About-Redis.git
    84c770f..8e0c6b9  master -> master
 █Start auto replying.
+<<<<<<< HEAD
 [master 0d6d698] commiting...
  Committer: root <root@gnuhpc.localdomain>
 Your name and email address were configured automatically based
@@ -2187,38 +2188,575 @@ Traceback (most recent call last):
   File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 247, in maintain_loop
     i = sync_check(self)
   File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 306, in sync_check
+=======
+[master 5b7f919] commiting...
+ Committer: root <root@gnuhpc.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 5 files changed, 876 insertions(+), 748 deletions(-)
+ create mode 100644 ChatRecords/main.2019-06-01.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-01.log
+Warning: Permanently added the RSA host key for IP address '192.30.255.113' to the list of known hosts.
+remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To git@github.com:gnuhpc/All-About-Redis.git
+   2df081b..5b7f919  master -> master
+[master c3aba31] commiting...
+ Committer: root <root@gnuhpc.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 2 files changed, 21 insertions(+), 0 deletions(-)
+remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  33% (1/3)   [Kremote: Resolving deltas:  66% (2/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To git@github.com:gnuhpc/All-About-Redis.git
+   5b7f919..c3aba31  master -> master
+[master f0d1a48] commiting...
+ Committer: root <root@gnuhpc.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+If the identity used for this commit is wrong, you can fix it with:
+
+    git commit --amend --author='Your Name <you@example.com>'
+
+ 5 files changed, 23 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/190602-190936.png
+ create mode 100644 ChatRecords/main.2019-06-02.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-02.log
+remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  33% (1/3)   [Kremote: Resolving deltas:  66% (2/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To git@github.com:gnuhpc/All-About-Redis.git
+   c3aba31..f0d1a48  master -> master
+█Start auto replying.
+[master fc77fca] commiting...
+ 5 files changed, 654 insertions(+), 513 deletions(-)
+ create mode 100644 ChatRecords/main.2019-06-04.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-04.log
+To github.com:gnuhpc/All-About-Redis.git
+   f7294cf..fc77fca  master -> master
+[master e39087f] commiting...
+ 2 files changed, 7 insertions(+)
+To github.com:gnuhpc/All-About-Redis.git
+   fc77fca..e39087f  master -> master
+[master 1cdbd7b] commiting...
+ 8 files changed, 139 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/190605-212106.png
+ create mode 100644 ChatRecords/190605-212301.png
+ create mode 100644 ChatRecords/190605-212643.png
+ create mode 100644 ChatRecords/190606-010209.png
+ create mode 100644 ChatRecords/main.2019-06-05.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-05.log
+Warning: Permanently added the RSA host key for IP address '192.30.255.112' to the list of known hosts.
+To github.com:gnuhpc/All-About-Redis.git
+   e39087f..1cdbd7b  master -> master
+[master c84fadc] commiting...
+ 2 files changed, 12 insertions(+)
+To github.com:gnuhpc/All-About-Redis.git
+   1cdbd7b..c84fadc  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 892, in emit
+    self.flush()
+  File "/usr/lib/python2.7/logging/__init__.py", line 852, in flush
+    self.stream.flush()
+IOError: [Errno 28] No space left on device
+Logged from file syncgroupchat.py, line 18
+error: unable to create temporary file: No space left on device
+error: ChatRecords/nohup.out: failed to insert into database
+error: unable to index file ChatRecords/nohup.out
+fatal: updating files failed
+fatal: Could not write new index file.
+Unstaged changes after reset:
+M	ChatRecords/main
+M	ChatRecords/nohup.out
+fatal: unable to write new_index file
+Warning: Permanently added the RSA host key for IP address '192.30.255.113' to the list of known hosts.
+Everything up-to-date
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 892, in emit
+    self.flush()
+  File "/usr/lib/python2.7/logging/__init__.py", line 852, in flush
+    self.stream.flush()
+IOError: [Errno 28] No space left on device
+Logged from file syncgroupchat.py, line 18
+error: unable to create temporary file: No space left on device
+error: ChatRecords/nohup.out: failed to insert into database
+error: unable to index file ChatRecords/nohup.out
+fatal: updating files failed
+fatal: Could not write new index file.
+Unstaged changes after reset:
+M	ChatRecords/main
+M	ChatRecords/nohup.out
+fatal: unable to write new_index file
+Everything up-to-date
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/logging/__init__.py", line 892, in emit
+    self.flush()
+  File "/usr/lib/python2.7/logging/__init__.py", line 852, in flush
+    self.stream.flush()
+IOError: [Errno 28] No space left on device
+Logged from file syncgroupchat.py, line 72
+[master f8e8da8] commiting...
+ 7 files changed, 60 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/190610-075530.png
+ create mode 100644 ChatRecords/main.2019-06-06.log
+ create mode 100644 ChatRecords/main.2019-06-09.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-06.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-09.log
+To github.com:gnuhpc/All-About-Redis.git
+   c84fadc..f8e8da8  master -> master
+[master a3064e5] commiting...
+ 2 files changed, 10 insertions(+)
+To github.com:gnuhpc/All-About-Redis.git
+   f8e8da8..a3064e5  master -> master
+[master 9e11887] commiting...
+ 4 files changed, 21 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-06-10.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-10.log
+To github.com:gnuhpc/All-About-Redis.git
+   a3064e5..9e11887  master -> master
+[master 2b52cb2] commiting...
+ 2 files changed, 7 insertions(+)
+To github.com:gnuhpc/All-About-Redis.git
+   9e11887..2b52cb2  master -> master
+[master 745b350] commiting...
+ 4 files changed, 42 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-06-11.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-11.log
+To github.com:gnuhpc/All-About-Redis.git
+   2b52cb2..745b350  master -> master
+[master 0d9b7b0] commiting...
+ 2 files changed, 7 insertions(+)
+To github.com:gnuhpc/All-About-Redis.git
+   745b350..0d9b7b0  master -> master
+[master 7db0c3c] commiting...
+ 4 files changed, 191 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-06-12.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-12.log
+To github.com:gnuhpc/All-About-Redis.git
+   0d9b7b0..7db0c3c  master -> master
+[master 99c0fc0] commiting...
+ 2 files changed, 7 insertions(+)
+To github.com:gnuhpc/All-About-Redis.git
+   7db0c3c..99c0fc0  master -> master
+[master 6b98e5c] commiting...
+ 4 files changed, 52 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-06-13.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-13.log
+To github.com:gnuhpc/All-About-Redis.git
+   99c0fc0..6b98e5c  master -> master
+[master 1d08d4d] commiting...
+ 2 files changed, 7 insertions(+)
+To github.com:gnuhpc/All-About-Redis.git
+   6b98e5c..1d08d4d  master -> master
+[master be034d7] commiting...
+ 6 files changed, 135 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/190614-155837.png
+ create mode 100644 ChatRecords/190614-162110.png
+ create mode 100644 ChatRecords/main.2019-06-14.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-14.log
+To github.com:gnuhpc/All-About-Redis.git
+   1d08d4d..be034d7  master -> master
+[master 9cf7ab6] commiting...
+ 2 files changed, 9 insertions(+)
+To github.com:gnuhpc/All-About-Redis.git
+   be034d7..9cf7ab6  master -> master
+[master eecfa02] commiting...
+ 5 files changed, 17 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/190615-194357.png
+ create mode 100644 ChatRecords/main.2019-06-15.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-15.log
+To github.com:gnuhpc/All-About-Redis.git
+   9cf7ab6..eecfa02  master -> master
+[master c9871c0] commiting...
+ 2 files changed, 8 insertions(+)
+To github.com:gnuhpc/All-About-Redis.git
+   eecfa02..c9871c0  master -> master
+[master 05d5f61] commiting...
+ 4 files changed, 21 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-06-16.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-16.log
+To github.com:gnuhpc/All-About-Redis.git
+   c9871c0..05d5f61  master -> master
+█Start auto replying.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 303, in sync_check
+    r = self.s.get(url, params=params, headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(104, 'Connection reset by peer'))
+
+[master b9cb2f0] commiting...
+ 5 files changed, 1011 insertions(+), 1088 deletions(-)
+ create mode 100644 ChatRecords/main.2019-06-18.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-18.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   77e7e46..b9cb2f0  master -> master
+[master 7b3939c] commiting...
+ 2 files changed, 7 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   b9cb2f0..7b3939c  master -> master
+[master 2aa6488] commiting...
+ 6 files changed, 143 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/190619-121043.png
+ create mode 100644 ChatRecords/190619-123832.png
+ create mode 100644 ChatRecords/main.2019-06-19.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-19.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   7b3939c..2aa6488  master -> master
+[master a0c66b9] commiting...
+ 2 files changed, 9 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   2aa6488..a0c66b9  master -> master
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 875, in emit
+    self.flush()
+  File "/usr/lib64/python2.7/logging/__init__.py", line 835, in flush
+    self.stream.flush()
+IOError: [Errno 122] Disk quota exceeded
+Logged from file syncgroupchat.py, line 18
+error: unable to create temporary file: Disk quota exceeded
+error: ChatRecords/nohup.out: failed to insert into database
+error: unable to index file ChatRecords/nohup.out
+fatal: updating files failed
+fatal: Could not write new index file.
+Unstaged changes after reset:
+M	ChatRecords/main
+M	ChatRecords/nohup.out
+fatal: unable to write new_index file
+Everything up-to-date
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 875, in emit
+    self.flush()
+  File "/usr/lib64/python2.7/logging/__init__.py", line 835, in flush
+    self.stream.flush()
+IOError: [Errno 122] Disk quota exceeded
+Logged from file syncgroupchat.py, line 18
+error: unable to create temporary file: Disk quota exceeded
+error: ChatRecords/nohup.out: failed to insert into database
+error: unable to index file ChatRecords/nohup.out
+fatal: updating files failed
+fatal: Could not write new index file.
+Unstaged changes after reset:
+M	ChatRecords/main
+M	ChatRecords/nohup.out
+fatal: unable to write new_index file
+Everything up-to-date
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 875, in emit
+    self.flush()
+  File "/usr/lib64/python2.7/logging/__init__.py", line 835, in flush
+    self.stream.flush()
+IOError: [Errno 122] Disk quota exceeded
+Logged from file syncgroupchat.py, line 72
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 875, in emit
+    self.flush()
+  File "/usr/lib64/python2.7/logging/__init__.py", line 835, in flush
+    self.stream.flush()
+IOError: [Errno 122] Disk quota exceeded
+Logged from file syncgroupchat.py, line 64
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 875, in emit
+    self.flush()
+  File "/usr/lib64/python2.7/logging/__init__.py", line 835, in flush
+    self.stream.flush()
+IOError: [Errno 122] Disk quota exceeded
+Logged from file syncgroupchat.py, line 64
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 875, in emit
+    self.flush()
+  File "/usr/lib64/python2.7/logging/__init__.py", line 835, in flush
+    self.stream.flush()
+IOError: [Errno 122] Disk quota exceeded
+Logged from file syncgroupchat.py, line 64
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 875, in emit
+    self.flush()
+  File "/usr/lib64/python2.7/logging/__init__.py", line 835, in flush
+    self.stream.flush()
+IOError: [Errno 122] Disk quota exceeded
+Logged from file syncgroupchat.py, line 64
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/logging/__init__.py", line 875, in emit
+    self.flush()
+  File "/usr/lib64/python2.7/logging/__init__.py", line 835, in flush
+    self.stream.flush()
+IOError: [master c0a54e5] commiting...
+ 7 files changed, 92 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/190621-122736.png
+ create mode 100644 ChatRecords/main.2019-06-20.log
+ create mode 100644 ChatRecords/main.2019-06-21.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-20.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-21.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   a0c66b9..c0a54e5  master -> master
+[master 1f06d50] commiting...
+ 2 files changed, 10 insertions(+), 1 deletion(-)
+To git@github.com:gnuhpc/All-About-Redis.git
+   c0a54e5..1f06d50  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+
+[master 9f3bc6a] commiting...
+ 4 files changed, 25 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-06-22.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-22.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   1f06d50..9f3bc6a  master -> master
+[master b0f805c] commiting...
+ 2 files changed, 7 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   9f3bc6a..b0f805c  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+SSLError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=MWT1pOWuuVsa56IQ&skey=@crypt_49509d7f_4d2d51811592a335e15f07a0715abaee&pass_ticket=FdtEomx2ejhauIRl55F4n4hhUdnNRr3ueVL%2FTHCjMCc%3D (Caused by SSLError(SSLEOFError(8, u'EOF occurred in violation of protocol (_ssl.c:579)'),))
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 306, in sync_check
+    if not isinstance(e.args[0].args[1], BadStatusLine):
+IndexError: tuple index out of range
+
+[master 591b9b0] commiting...
+ 4 files changed, 35 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-06-23.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-23.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   b0f805c..591b9b0  master -> master
+[master a1247b0] commiting...
+ 2 files changed, 7 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   591b9b0..a1247b0  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+SSLError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=MWT1pOWuuVsa56IQ&skey=@crypt_49509d7f_4d2d51811592a335e15f07a0715abaee&pass_ticket=FdtEomx2ejhauIRl55F4n4hhUdnNRr3ueVL%2FTHCjMCc%3D (Caused by SSLError(SSLEOFError(8, u'EOF occurred in violation of protocol (_ssl.c:579)'),))
+
+[master 02d1f00] commiting...
+ 5 files changed, 114 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/190624-014452.png
+ create mode 100644 ChatRecords/main.2019-06-24.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-24.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   a1247b0..02d1f00  master -> master
+[master 0d41949] commiting...
+ 2 files changed, 8 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   02d1f00..0d41949  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+SSLError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=MWT1pOWuuVsa56IQ&skey=@crypt_49509d7f_4d2d51811592a335e15f07a0715abaee&pass_ticket=FdtEomx2ejhauIRl55F4n4hhUdnNRr3ueVL%2FTHCjMCc%3D (Caused by SSLError(SSLEOFError(8, u'EOF occurred in violation of protocol (_ssl.c:579)'),))
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 303, in sync_check
+    r = self.s.get(url, params=params, headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(104, 'Connection reset by peer'))
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 303, in sync_check
+    r = self.s.get(url, params=params, headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', error(104, 'Connection reset by peer'))
+
+[master d46bf10] commiting...
+ 6 files changed, 75 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/190625-101616.png
+ create mode 100644 ChatRecords/190625-103735.png
+ create mode 100644 ChatRecords/main.2019-06-25.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-25.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   0d41949..d46bf10  master -> master
+[master b6f0f24] commiting...
+ 2 files changed, 9 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   d46bf10..b6f0f24  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 306, in sync_check
+>>>>>>> 0598491f5cdc2b5cdf62d446e13d758abefac2be
     if not isinstance(e.args[0].args[1], BadStatusLine):
 IndexError: tuple index out of range
 
 Traceback (most recent call last):
+<<<<<<< HEAD
   File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 247, in maintain_loop
     i = sync_check(self)
   File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 306, in sync_check
+=======
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 686, in send
+    r.content
+  File "/usr/lib/python2.7/site-packages/requests/models.py", line 828, in content
+    self._content = b''.join(self.iter_content(CONTENT_CHUNK_SIZE)) or b''
+  File "/usr/lib/python2.7/site-packages/requests/models.py", line 757, in generate
+    raise ConnectionError(e)
+ConnectionError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Read timed out.
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 686, in send
+    r.content
+  File "/usr/lib/python2.7/site-packages/requests/models.py", line 828, in content
+    self._content = b''.join(self.iter_content(CONTENT_CHUNK_SIZE)) or b''
+  File "/usr/lib/python2.7/site-packages/requests/models.py", line 757, in generate
+    raise ConnectionError(e)
+ConnectionError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Read timed out.
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 306, in sync_check
+>>>>>>> 0598491f5cdc2b5cdf62d446e13d758abefac2be
     if not isinstance(e.args[0].args[1], BadStatusLine):
 IndexError: tuple index out of range
 
 Traceback (most recent call last):
+<<<<<<< HEAD
   File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 247, in maintain_loop
     i = sync_check(self)
   File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 306, in sync_check
+=======
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 306, in sync_check
+>>>>>>> 0598491f5cdc2b5cdf62d446e13d758abefac2be
     if not isinstance(e.args[0].args[1], BadStatusLine):
 IndexError: tuple index out of range
 
 Traceback (most recent call last):
+<<<<<<< HEAD
   File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 247, in maintain_loop
     i = sync_check(self)
   File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 306, in sync_check
+=======
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 306, in sync_check
+>>>>>>> 0598491f5cdc2b5cdf62d446e13d758abefac2be
     if not isinstance(e.args[0].args[1], BadStatusLine):
 IndexError: tuple index out of range
 
 Traceback (most recent call last):
+<<<<<<< HEAD
   File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 247, in maintain_loop
     i = sync_check(self)
   File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 306, in sync_check
+=======
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 306, in sync_check
+>>>>>>> 0598491f5cdc2b5cdf62d446e13d758abefac2be
     if not isinstance(e.args[0].args[1], BadStatusLine):
 IndexError: tuple index out of range
 
 Traceback (most recent call last):
+<<<<<<< HEAD
   File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 247, in maintain_loop
     i = sync_check(self)
   File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 306, in sync_check
@@ -3086,3 +3624,578 @@ Downloading QR code.
 ██              ██████  ██    ██  ██████████████  ██  ██  ██    ██████      ██
 ██████████████████████████████████████████████████████████████████████████████
 Please scan the QR code to log in.
+=======
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+SSLError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=MWT1pOWuuVsa56IQ&skey=@crypt_49509d7f_4d2d51811592a335e15f07a0715abaee&pass_ticket=FdtEomx2ejhauIRl55F4n4hhUdnNRr3ueVL%2FTHCjMCc%3D (Caused by SSLError(SSLEOFError(8, u'EOF occurred in violation of protocol (_ssl.c:579)'),))
+
+[master c16edda] commiting...
+ 4 files changed, 97 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-06-26.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-26.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   b6f0f24..c16edda  master -> master
+[master 19b8be5] commiting...
+ 2 files changed, 7 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   c16edda..19b8be5  master -> master
+[master 0920ba1] commiting...
+ 5 files changed, 50 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/190628-030207.png
+ create mode 100644 ChatRecords/main.2019-06-27.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-27.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   19b8be5..0920ba1  master -> master
+[master bf499b7] commiting...
+ 2 files changed, 8 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   0920ba1..bf499b7  master -> master
+[master 74665ca] commiting...
+ 5 files changed, 19 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/190628-032511.png
+ create mode 100644 ChatRecords/main.2019-06-28.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-28.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   bf499b7..74665ca  master -> master
+[master d9a97a6] commiting...
+ 2 files changed, 8 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   74665ca..d9a97a6  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 306, in sync_check
+    if not isinstance(e.args[0].args[1], BadStatusLine):
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+SSLError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=MWT1pOWuuVsa56IQ&skey=@crypt_49509d7f_4d2d51811592a335e15f07a0715abaee&pass_ticket=FdtEomx2ejhauIRl55F4n4hhUdnNRr3ueVL%2FTHCjMCc%3D (Caused by SSLError(SSLEOFError(8, u'EOF occurred in violation of protocol (_ssl.c:579)'),))
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 306, in sync_check
+    if not isinstance(e.args[0].args[1], BadStatusLine):
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+
+[master 91448ee] commiting...
+ 4 files changed, 53 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-06-29.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-29.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   d9a97a6..91448ee  master -> master
+[master 53ba123] commiting...
+ 2 files changed, 7 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   91448ee..53ba123  master -> master
+[master 89c7142] commiting...
+ 4 files changed, 13 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-06-30.log
+ create mode 100644 ChatRecords/redisgroup.2019-06-30.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   53ba123..89c7142  master -> master
+[master 2f965fa] commiting...
+ 2 files changed, 7 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   89c7142..2f965fa  master -> master
+[master 021bace] commiting...
+ 4 files changed, 61 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-07-01.log
+ create mode 100644 ChatRecords/redisgroup.2019-07-01.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   2f965fa..021bace  master -> master
+[master e73e077] commiting...
+ 2 files changed, 7 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   021bace..e73e077  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+SSLError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=MWT1pOWuuVsa56IQ&skey=@crypt_49509d7f_4d2d51811592a335e15f07a0715abaee&pass_ticket=FdtEomx2ejhauIRl55F4n4hhUdnNRr3ueVL%2FTHCjMCc%3D (Caused by SSLError(SSLEOFError(8, u'EOF occurred in violation of protocol (_ssl.c:579)'),))
+
+[master 8ed0311] commiting...
+ 4 files changed, 57 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-07-02.log
+ create mode 100644 ChatRecords/redisgroup.2019-07-02.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   e73e077..8ed0311  master -> master
+[master df3ca0f] commiting...
+ 2 files changed, 7 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   8ed0311..df3ca0f  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+SSLError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=MWT1pOWuuVsa56IQ&skey=@crypt_49509d7f_4d2d51811592a335e15f07a0715abaee&pass_ticket=FdtEomx2ejhauIRl55F4n4hhUdnNRr3ueVL%2FTHCjMCc%3D (Caused by SSLError(SSLEOFError(8, u'EOF occurred in violation of protocol (_ssl.c:579)'),))
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+
+[master 79c41d7] commiting...
+ 4 files changed, 95 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-07-03.log
+ create mode 100644 ChatRecords/redisgroup.2019-07-03.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   df3ca0f..79c41d7  master -> master
+[master 0242610] commiting...
+ 2 files changed, 7 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   79c41d7..0242610  master -> master
+[master d9e6899] commiting...
+ 4 files changed, 95 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-07-04.log
+ create mode 100644 ChatRecords/redisgroup.2019-07-04.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   0242610..d9e6899  master -> master
+[master ed002ba] commiting...
+ 2 files changed, 7 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   d9e6899..ed002ba  master -> master
+[master 743d16a] commiting...
+ 5 files changed, 113 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/190705-024744.png
+ create mode 100644 ChatRecords/main.2019-07-05.log
+ create mode 100644 ChatRecords/redisgroup.2019-07-05.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   ed002ba..743d16a  master -> master
+[master ef66a7c] commiting...
+ 2 files changed, 8 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   743d16a..ef66a7c  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 306, in sync_check
+    if not isinstance(e.args[0].args[1], BadStatusLine):
+IndexError: tuple index out of range
+
+[master 77f6205] commiting...
+ 4 files changed, 17 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-07-07.log
+ create mode 100644 ChatRecords/redisgroup.2019-07-07.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   ef66a7c..77f6205  master -> master
+[master d1637cb] commiting...
+ 2 files changed, 7 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   77f6205..d1637cb  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 306, in sync_check
+    if not isinstance(e.args[0].args[1], BadStatusLine):
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 306, in sync_check
+    if not isinstance(e.args[0].args[1], BadStatusLine):
+IndexError: tuple index out of range
+
+[master b8e0c4f] commiting...
+ 4 files changed, 27 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-07-08.log
+ create mode 100644 ChatRecords/redisgroup.2019-07-08.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   d1637cb..b8e0c4f  master -> master
+[master 7033148] commiting...
+ 2 files changed, 7 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   b8e0c4f..7033148  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+SSLError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=MWT1pOWuuVsa56IQ&skey=@crypt_49509d7f_4d2d51811592a335e15f07a0715abaee&pass_ticket=FdtEomx2ejhauIRl55F4n4hhUdnNRr3ueVL%2FTHCjMCc%3D (Caused by SSLError(SSLEOFError(8, u'EOF occurred in violation of protocol (_ssl.c:579)'),))
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 306, in sync_check
+    if not isinstance(e.args[0].args[1], BadStatusLine):
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 306, in sync_check
+    if not isinstance(e.args[0].args[1], BadStatusLine):
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+SSLError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=MWT1pOWuuVsa56IQ&skey=@crypt_49509d7f_4d2d51811592a335e15f07a0715abaee&pass_ticket=FdtEomx2ejhauIRl55F4n4hhUdnNRr3ueVL%2FTHCjMCc%3D (Caused by SSLError(SSLEOFError(8, u'EOF occurred in violation of protocol (_ssl.c:579)'),))
+
+[master 7601315] commiting...
+ 5 files changed, 152 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/190710-094014.png
+ create mode 100644 ChatRecords/main.2019-07-09.log
+ create mode 100644 ChatRecords/redisgroup.2019-07-09.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   7033148..7601315  master -> master
+[master 835c70c] commiting...
+ 2 files changed, 8 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   7601315..835c70c  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 306, in sync_check
+    if not isinstance(e.args[0].args[1], BadStatusLine):
+IndexError: tuple index out of range
+
+[master 193db2c] commiting...
+ 4 files changed, 89 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-07-10.log
+ create mode 100644 ChatRecords/redisgroup.2019-07-10.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   835c70c..193db2c  master -> master
+[master 911d368] commiting...
+ 2 files changed, 7 insertions(+)
+Warning: Permanently added the RSA host key for IP address '140.82.114.4' to the list of known hosts.
+To git@github.com:gnuhpc/All-About-Redis.git
+   193db2c..911d368  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 306, in sync_check
+    if not isinstance(e.args[0].args[1], BadStatusLine):
+IndexError: tuple index out of range
+
+[master bf190e5] commiting...
+ 4 files changed, 20 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-07-11.log
+ create mode 100644 ChatRecords/redisgroup.2019-07-11.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   911d368..bf190e5  master -> master
+[master 3b07dda] commiting...
+ 2 files changed, 7 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   bf190e5..3b07dda  master -> master
+[master 670f1b8] commiting...
+ 5 files changed, 47 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/190712-081343.png
+ create mode 100644 ChatRecords/main.2019-07-12.log
+ create mode 100644 ChatRecords/redisgroup.2019-07-12.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   3b07dda..670f1b8  master -> master
+[master 90cd621] commiting...
+ 2 files changed, 8 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   670f1b8..90cd621  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+SSLError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=MWT1pOWuuVsa56IQ&skey=@crypt_49509d7f_4d2d51811592a335e15f07a0715abaee&pass_ticket=FdtEomx2ejhauIRl55F4n4hhUdnNRr3ueVL%2FTHCjMCc%3D (Caused by SSLError(SSLEOFError(8, u'EOF occurred in violation of protocol (_ssl.c:579)'),))
+
+[master c12a2e7] commiting...
+ 4 files changed, 54 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-07-13.log
+ create mode 100644 ChatRecords/redisgroup.2019-07-13.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   90cd621..c12a2e7  master -> master
+[master 31b3236] commiting...
+ 2 files changed, 7 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   c12a2e7..31b3236  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+SSLError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=MWT1pOWuuVsa56IQ&skey=@crypt_49509d7f_4d2d51811592a335e15f07a0715abaee&pass_ticket=FdtEomx2ejhauIRl55F4n4hhUdnNRr3ueVL%2FTHCjMCc%3D (Caused by SSLError(SSLEOFError(8, u'EOF occurred in violation of protocol (_ssl.c:579)'),))
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 306, in sync_check
+    if not isinstance(e.args[0].args[1], BadStatusLine):
+IndexError: tuple index out of range
+
+[master 868f973] commiting...
+ 4 files changed, 102 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-07-15.log
+ create mode 100644 ChatRecords/redisgroup.2019-07-15.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   31b3236..868f973  master -> master
+[master cb7df0a] commiting...
+ 2 files changed, 7 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   868f973..cb7df0a  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+
+[master c9b099a] commiting...
+ 4 files changed, 33 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/main.2019-07-16.log
+ create mode 100644 ChatRecords/redisgroup.2019-07-16.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   cb7df0a..c9b099a  master -> master
+[master 75daaae] commiting...
+ 2 files changed, 7 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   c9b099a..75daaae  master -> master
+[master da17802] commiting...
+ 5 files changed, 58 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/190717-103613.png
+ create mode 100644 ChatRecords/main.2019-07-17.log
+ create mode 100644 ChatRecords/redisgroup.2019-07-17.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   75daaae..da17802  master -> master
+[master 7e36ca3] commiting...
+ 2 files changed, 8 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   da17802..7e36ca3  master -> master
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+SSLError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=MWT1pOWuuVsa56IQ&skey=@crypt_49509d7f_4d2d51811592a335e15f07a0715abaee&pass_ticket=FdtEomx2ejhauIRl55F4n4hhUdnNRr3ueVL%2FTHCjMCc%3D (Caused by SSLError(SSLEOFError(8, u'EOF occurred in violation of protocol (_ssl.c:579)'),))
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/lib/python2.7/site-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+SSLError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsync?sid=MWT1pOWuuVsa56IQ&skey=@crypt_49509d7f_4d2d51811592a335e15f07a0715abaee&pass_ticket=FdtEomx2ejhauIRl55F4n4hhUdnNRr3ueVL%2FTHCjMCc%3D (Caused by SSLError(SSLEOFError(8, u'EOF occurred in violation of protocol (_ssl.c:579)'),))
+
+[master 7de4170] commiting...
+ 10 files changed, 90 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/190718-082217.png
+ create mode 100644 ChatRecords/190718-085016.png
+ create mode 100644 ChatRecords/190718-085224.png
+ create mode 100644 ChatRecords/190718-085712.png
+ create mode 100644 ChatRecords/190718-094513.png
+ create mode 100644 ChatRecords/190718-103845.png
+ create mode 100644 ChatRecords/main.2019-07-18.log
+ create mode 100644 ChatRecords/redisgroup.2019-07-18.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   7e36ca3..7de4170  master -> master
+>>>>>>> 0598491f5cdc2b5cdf62d446e13d758abefac2be

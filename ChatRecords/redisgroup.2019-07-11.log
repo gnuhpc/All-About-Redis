@@ -1,0 +1,5 @@
+2019-07-11 01:18:03,144  零度@changtu 分享链接:
+ 关于Redis存在远程命令执行漏洞的安全公告
+http://mp.weixin.qq.com/s?__biz=MzU2NjIzNDk5NQ==&amp;mid=2247486940&amp;idx=1&amp;sn=b4edc308952645621a266913ff2275ff&amp;chksm=fcaed7c0cbd95ed6648b978c9bde786aef89bdd665d6eb21bb59d9b65b8fb65082eb5c018c7e&amp;mpshare=1&amp;scene=1&amp;srcid=#rd
+2019-07-11 02:53:59,229  arthur@baidu 说: 
+作者2天前已经修复了 https://github.com/antirez/redis/issues/6214
