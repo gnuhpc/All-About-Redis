@@ -4264,3 +4264,20 @@ After doing this, you may fix the identity used for this commit with:
  copy ChatRecords/{redisgroup => redisgroup.2019-07-24.log} (50%)
 To git@github.com:gnuhpc/All-About-Redis.git
    d131216..48143a9  master -> master
+[master 3463a8b] commiting...
+ Committer: root <root@gnuhpc.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 23 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   48143a9..3463a8b  master -> master
