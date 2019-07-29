@@ -4353,3 +4353,20 @@ After doing this, you may fix the identity used for this commit with:
  create mode 100644 ChatRecords/redisgroup.2019-07-26.log
 To git@github.com:gnuhpc/All-About-Redis.git
    942e8c4..d3559d8  master -> master
+[master 44f0c70] commiting...
+ Committer: root <root@gnuhpc.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 20 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   d3559d8..44f0c70  master -> master
