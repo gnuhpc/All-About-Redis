@@ -4690,3 +4690,24 @@ Traceback (most recent call last):
     raise SSLError(e, request=request)
 SSLError: EOF occurred in violation of protocol (_ssl.c:590)
 
+[master 685f93c] commiting...
+ Committer: root <root@gnuhpc.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 6 files changed, 266 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/190806-201206.png
+ create mode 100644 ChatRecords/190806-204338.png
+ create mode 100644 ChatRecords/main.2019-08-06.log
+ create mode 100644 ChatRecords/redisgroup.2019-08-06.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   c3727d1..685f93c  master -> master
