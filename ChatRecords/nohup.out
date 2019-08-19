@@ -5096,3 +5096,56 @@ To git@github.com:gnuhpc/All-About-Redis.git
    0f4b481..6afbe28  master -> master
 LOG OUT!
 █Start auto replying.
+[master 52cc97f] commiting...
+ Committer: root <root@gnuhpc.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 5 files changed, 45493 insertions(+), 592 deletions(-)
+ rewrite ChatRecords/redisgroup (100%)
+ copy ChatRecords/{redisgroup => redisgroup.2019-08-14.log} (100%)
+To git@github.com:gnuhpc/All-About-Redis.git
+   85f8366..52cc97f  master -> master
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/register.py", line 60, in configured_reply
+    r = replyFn(msg)
+  File "syncgroupchat.py", line 105, in group_reply_media
+    itchat.send('@%s@%s' % ({'Picture': 'img', 'Video': 'vid'}.get(msg['Type'], 'fil'), msg['FileName']), item['UserName'])
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/messages.py", line 497, in send
+    r = self.send_image(msg[5:], toUserName)
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/messages.py", line 443, in send_image
+    data=json.dumps(data, ensure_ascii=False).encode('utf8'))
+  File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 511, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 468, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 576, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/requests/adapters.py", line 426, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 511, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 468, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 576, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/requests/adapters.py", line 447, in send
+    raise SSLError(e, request=request)
+SSLError: EOF occurred in violation of protocol (_ssl.c:590)
+
