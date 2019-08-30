@@ -5399,3 +5399,63 @@ After doing this, you may fix the identity used for this commit with:
  create mode 100644 ChatRecords/redisgroup.2019-08-27.log
 To git@github.com:gnuhpc/All-About-Redis.git
    c24a5c9..6220319  master -> master
+[master 8628f4d] commiting...
+ Committer: root <root@gnuhpc.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 20 insertions(+)
+To git@github.com:gnuhpc/All-About-Redis.git
+   6220319..8628f4d  master -> master
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 306, in sync_check
+    if not isinstance(e.args[0].args[1], BadStatusLine):
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 306, in sync_check
+    if not isinstance(e.args[0].args[1], BadStatusLine):
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 306, in sync_check
+    if not isinstance(e.args[0].args[1], BadStatusLine):
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 306, in sync_check
+    if not isinstance(e.args[0].args[1], BadStatusLine):
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 306, in sync_check
+    if not isinstance(e.args[0].args[1], BadStatusLine):
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 247, in maintain_loop
+    i = sync_check(self)
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 306, in sync_check
+    if not isinstance(e.args[0].args[1], BadStatusLine):
+IndexError: tuple index out of range
+
+LOG OUT!
