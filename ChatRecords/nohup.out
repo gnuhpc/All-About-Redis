@@ -5518,3 +5518,61 @@ Traceback (most recent call last):
     if not isinstance(e.args[0].args[1], BadStatusLine):
 IndexError: tuple index out of range
 
+[master 6096e83] commiting...
+ Committer: root <root@gnuhpc.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 13 insertions(+), 8 deletions(-)
+ rewrite ChatRecords/redisgroup (100%)
+ copy ChatRecords/{redisgroup => redisgroup.2019-08-28.log} (100%)
+To git@github.com:gnuhpc/All-About-Redis.git
+   7f290bc..6096e83  master -> master
+█Start auto replying.
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/register.py", line 60, in configured_reply
+    r = replyFn(msg)
+  File "syncgroupchat.py", line 130, in group_join_note
+    itchat.send_msg(u"@%s\u2005欢迎来到本群[微笑]，感谢@%s \u2005邀请！方便的话做个简单自我介绍，再把群名片改为 名字@公司～ 最后看下群公告，谢谢！" % (invitee,inviter), chatroom_id )
+NameError: global name 'invitee' is not defined
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 511, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 468, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 576, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/requests/adapters.py", line 447, in send
+    raise SSLError(e, request=request)
+SSLError: EOF occurred in violation of protocol (_ssl.c:590)
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 253, in maintain_loop
+    msgList, contactList = self.get_msg()
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/login.py", line 334, in get_msg
+    r = self.s.post(url, data=json.dumps(data), headers=headers, timeout=config.TIMEOUT)
+  File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 511, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 468, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 576, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/requests/adapters.py", line 426, in send
+    raise ConnectionError(err, request=request)
+ConnectionError: ('Connection aborted.', BadStatusLine("''",))
+
+LOG OUT!
