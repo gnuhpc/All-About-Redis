@@ -5577,3 +5577,22 @@ ConnectionError: ('Connection aborted.', BadStatusLine("''",))
 
 LOG OUT!
 █Start auto replying.
+[master 35a4bab] commiting...
+ Committer: root <root@gnuhpc.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 5 files changed, 64 insertions(+), 79 deletions(-)
+ rewrite ChatRecords/redisgroup (100%)
+ copy ChatRecords/{redisgroup => redisgroup.2019-09-03.log} (100%)
+To git@github.com:gnuhpc/All-About-Redis.git
+   dc66725..35a4bab  master -> master
