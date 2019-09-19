@@ -137,7 +137,7 @@ if __name__ == '__main__':
     itchat.auto_login(hotReload=True,enableCmdQR=2)
 
     # 获取所有通讯录中的相关群聊
-    chatrooms = itchat.search_chatrooms(name="Redis技术交流群")
+    chatrooms = itchat.search_chatrooms(name="Redis")
     chatroom_ids = [c['UserName'] for c in chatrooms]
 
     main_logger.info('正在监测的群聊：%d 个' %(len(chatrooms)))
