@@ -5676,3 +5676,21 @@ IndexError: tuple index out of range
 
 LOG OUT!
 █Start auto replying.
+[master d40961f] commiting...
+ Committer: root <root@gnuhpc.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 6 files changed, 24928 insertions(+), 2007 deletions(-)
+ create mode 100644 ChatRecords/redisgroup.2019-09-08.log
+To git@github.com:gnuhpc/All-About-Redis.git
+   c089705..d40961f  master -> master

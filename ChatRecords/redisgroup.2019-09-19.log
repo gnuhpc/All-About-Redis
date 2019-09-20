@@ -1,0 +1,84 @@
+2019-09-19 14:08:37,200  鹏程@CMBC 说: 
+欢迎aws的jack han
+2019-09-19 14:08:43,470  鹏程@CMBC 说: 
+欢迎aws的jack han
+2019-09-19 14:12:12,607  jackhan2008 说: 
+大家好！我是AWS的Jack Han，主要负责AWS数据库产品在中国的落地与推广。请各位老师多指教，谢谢！
+2019-09-19 14:12:12,907  jackhan2008 说: 
+大家好！我是AWS的Jack Han，主要负责AWS数据库产品在中国的落地与推广。请各位老师多指教，谢谢！
+2019-09-19 14:12:57,076  HQ@TAL 说: 
+外国人[发呆]
+2019-09-19 14:12:57,380  HQ@TAL 说: 
+外国人[发呆]
+2019-09-19 14:14:12,617  JackHan@AWS 说: 
+不是[Grin]，我把昵称改过来，习惯了~
+2019-09-19 14:14:12,919  JackHan@AWS 说: 
+不是[Grin]，我把昵称改过来，习惯了~
+2019-09-19 14:14:46,182  zousir@腾讯云 说: 
+具体负责哪个产品啊
+2019-09-19 14:14:46,482  zousir@腾讯云 说: 
+具体负责哪个产品啊
+2019-09-19 14:16:40,797  韩锷春@AWS 说: 
+RDS/Aurora, ElastiCache for Redis/Memcached, DynamoDB等
+
+2019-09-19 14:16:41,115  韩锷春@AWS 说: 
+RDS/Aurora, ElastiCache for Redis/Memcached, DynamoDB等
+
+2019-09-19 14:25:37,579  鹏程@CMBC 说: 
+@韩锷春@AWS 有elasticcache研发的华人吗？
+2019-09-19 14:25:38,536  鹏程@CMBC 说: 
+@韩锷春@AWS 有elasticcache研发的华人吗？
+2019-09-19 14:26:23,406  韩锷春@AWS 说: 
+我估计肯定有，但没有具体去了解过
+
+2019-09-19 14:26:23,741  韩锷春@AWS 说: 
+我估计肯定有，但没有具体去了解过
+
+2019-09-19 14:28:12,323  鹏程@CMBC 说: 
+可以在群里和各个云厂商的朋友聊聊~azure Redis原来有个工程师也在群里，后来他不做了，要不你们也可以聊聊，哈哈~
+2019-09-19 14:28:13,326  鹏程@CMBC 说: 
+可以在群里和各个云厂商的朋友聊聊~azure Redis原来有个工程师也在群里，后来他不做了，要不你们也可以聊聊，哈哈~
+2019-09-19 14:30:24,526  韩锷春@AWS 说: 
+大家互相交流学习~
+2019-09-19 14:30:24,836  韩锷春@AWS 说: 
+大家互相交流学习~
+2019-09-19 14:30:28,484  焦清波@fh 说: 
+目前aws官网提到的时序数据库没有用户指南
+2019-09-19 14:30:28,784  焦清波@fh 说: 
+目前aws官网提到的时序数据库没有用户指南
+2019-09-19 14:41:03,393  韩锷春@AWS 说: 
+是的，目前还在 注册预览 阶段。
+2019-09-19 14:41:03,691  韩锷春@AWS 说: 
+是的，目前还在 注册预览 阶段。
+2019-09-19 14:44:26,958  Rui Gu@Redisson 说: 
+@韩锷春@AWS 欢迎
+2019-09-19 14:44:27,991  Rui Gu@Redisson 说: 
+@韩锷春@AWS 欢迎
+2019-09-19 14:45:01,452  韩锷春@AWS 说: 
+谢谢！
+2019-09-19 14:45:01,740  韩锷春@AWS 说: 
+谢谢！
+2019-09-19 17:20:48,733  Jms@gewara 说: 
+请教个问题，用spring的lettuce管理redis的时候，碰到一个master节点挂了后，在和这个节点关联的连接上的操作就会不断的重试，这个有解决思路么。和网上的这个问题一样。https://stackoverflow.com/questions/54032579/when-one-of-redis-master-is-down-in-docker-spring-boot-redis-lettuce-client-alwa 
+2019-09-19 17:20:49,082  Jms@gewara 说: 
+请教个问题，用spring的lettuce管理redis的时候，碰到一个master节点挂了后，在和这个节点关联的连接上的操作就会不断的重试，这个有解决思路么。和网上的这个问题一样。https://stackoverflow.com/questions/54032579/when-one-of-redis-master-is-down-in-docker-spring-boot-redis-lettuce-client-alwa 
+2019-09-19 17:24:20,278  陈宝仪@Redis-replicator 说: 
+lettuce可以设置不重试
+2019-09-19 17:24:20,602  陈宝仪@Redis-replicator 说: 
+lettuce可以设置不重试
+2019-09-19 17:25:14,983  陈宝仪@Redis-replicator 说: 
+ClientOptions.autoReconnect(false)
+2019-09-19 17:25:15,287  陈宝仪@Redis-replicator 说: 
+ClientOptions.autoReconnect(false)
+2019-09-19 17:26:40,492  陈宝仪@Redis-replicator 说: 
+这个参数设置成false之后，就必须用lettuce的连接池管理连接了，要不然就要重新创建一个新连接
+2019-09-19 17:26:40,799  陈宝仪@Redis-replicator 说: 
+这个参数设置成false之后，就必须用lettuce的连接池管理连接了，要不然就要重新创建一个新连接
+2019-09-19 17:30:22,022  Jms@cloudchef 说: 
+我加了 但是好像没有用 做了一个cache.evict(key) 还是在重连
+2019-09-19 17:30:22,327  Jms@cloudchef 说: 
+我加了 但是好像没有用 做了一个cache.evict(key) 还是在重连
+2019-09-19 19:59:54,113  tomcat@mapgoo 说: 
+请教大家一个问题，codis是不是已经支持prometheus metrics的导出？有配置文档吗？非常感谢
+2019-09-19 19:59:56,277  tomcat@mapgoo 说: 
+请教大家一个问题，codis是不是已经支持prometheus metrics的导出？有配置文档吗？非常感谢
