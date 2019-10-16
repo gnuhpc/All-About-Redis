@@ -5778,3 +5778,20 @@ After doing this, you may fix the identity used for this commit with:
  copy ChatRecords/{redisgroup => redisgroup.2019-10-11.log} (100%)
 █Start auto replying.
 █Start auto replying.
+[master 7afe719] commiting...
+ Committer: root <root@gnuhpc.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 5 files changed, 45894 insertions(+), 871 deletions(-)
+ rewrite ChatRecords/redisgroup (100%)
+ copy ChatRecords/{redisgroup => redisgroup.2019-10-14.log} (100%)
+█Start auto replying.
