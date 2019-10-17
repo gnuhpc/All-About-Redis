@@ -5835,3 +5835,21 @@ Traceback (most recent call last):
     itchat.send_msg(u"@%s\u2005欢迎来到本群[微笑]，感谢@%s \u2005邀请！方便的话做个简单自我介绍，再把群名片改为 名字@公司～ 最后看下群公告，谢谢！" % (invitee,inviter), chatroom_id )
 NameError: global name 'invitee' is not defined
 
+[master 347723e] commiting...
+ Committer: root <root@gnuhpc.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 5 files changed, 85 insertions(+), 2 deletions(-)
+ create mode 100644 ChatRecords/191016-002423.png
+ create mode 100644 ChatRecords/main.2019-10-16.log
+ create mode 100644 ChatRecords/redisgroup.2019-10-16.log
+fatal: could not read Username for 'https://github.com': No such device or address
