@@ -5813,3 +5813,25 @@ After doing this, you may fix the identity used for this commit with:
  copy ChatRecords/{main => main.2019-10-15.log} (65%)
  create mode 100644 ChatRecords/redisgroup.2019-10-15.log
 fatal: could not read Username for 'https://github.com': No such device or address
+[master 6fc7ff5] commiting...
+ Committer: root <root@gnuhpc.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 19 insertions(+)
+fatal: could not read Username for 'https://github.com': No such device or address
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/itchat/components/register.py", line 60, in configured_reply
+    r = replyFn(msg)
+  File "syncgroupchat.py", line 130, in group_join_note
+    itchat.send_msg(u"@%s\u2005欢迎来到本群[微笑]，感谢@%s \u2005邀请！方便的话做个简单自我介绍，再把群名片改为 名字@公司～ 最后看下群公告，谢谢！" % (invitee,inviter), chatroom_id )
+NameError: global name 'invitee' is not defined
+
