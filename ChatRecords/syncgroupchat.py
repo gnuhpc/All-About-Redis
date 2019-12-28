@@ -104,6 +104,10 @@ def group_reply_media(msg):
             itchat.send('%s 发送了：\n' % (username), item['UserName'])
             itchat.send('@%s@%s' % ({'Picture': 'img', 'Video': 'vid'}.get(msg['Type'], 'fil'), msg['FileName']), item['UserName'])
 
+@itchat.msg_register(SYSTEM, isGroupChat=True)
+def group_added_reply(msg):
+    print msg
+
 if __name__ == '__main__':
     #### main func ###
     main_logger = setup_logger("main_logger","main")
