@@ -1,0 +1,32 @@
+2019-05-29 07:16:38,243  harry@同程旅游 说: 
+Roaring bitmaps
+2019-05-29 07:16:56,653  harry@同程旅游 说: 
+确认个问题 redis的bitmap 是这个算法的实现吗？
+2019-05-29 08:04:09,530  鹏程@CMBC 说: 
+看上下文好像不是？
+2019-05-29 08:04:10,430  鹏程@CMBC 说: 
+https://github.com/antirez/redis/issues/271
+2019-05-29 08:06:48,770  harry@同程旅游 说: 
+redis bitmap 是512M 的大小，如果设置一个2的32次幕的position 会不会把512m全占上
+2019-05-29 10:11:13,655  harry@同程旅游 说: 
+https://www.elastic.co/cn/blog/frame-of-reference-and-roaring-bitmaps
+2019-05-29 10:11:22,932  harry@同程旅游 说: 
+es里用的是这个算法
+2019-05-29 12:34:48,345  Rui Gu@Redisson 说: 
+RedissonPRO里提供了这个的
+2019-05-29 12:55:02,925  harry@同程旅游 说: 
+亲测 redis 自带这个 一下会吃掉512m 
+2019-05-29 12:58:00,270  harry@同程旅游 说: 
+hysMem: 6708M used (1745M wired), 1482M unused.
+2019-05-29 12:58:17,162  harry@同程旅游 说: 
+PhysMem: 7223M used (1745M wired), 968M unuse
+2019-05-29 12:58:26,064  harry@同程旅游 说: 
+setbit a 4294967295 1
+2019-05-29 12:58:35,701  harry@同程旅游 说: 
+set 完之后的内存使用量
+2019-05-29 12:58:55,991  harry@同程旅游 说: 
+PhysMem: 6745M used (1747M wired), 1444M unuse
+2019-05-29 12:59:00,222  harry@同程旅游 说: 
+del a
+2019-05-29 12:59:10,553  harry@同程旅游 说: 
+del 之后的内存使用量

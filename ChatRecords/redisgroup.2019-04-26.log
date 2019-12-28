@@ -1,0 +1,11 @@
+2019-04-26 10:32:53,691  鹏程@CMBC 分享链接:
+ #每日分享 「链接」 AOF for Redis Persistence | Develop Paper
+https://t.zsxq.com/fq7MjeU
+2019-04-26 11:21:56,113  黄威@国美 说: 
+redis中如果使用epoll作为ae的底层话，使用的是水平触发模式
+2019-04-26 11:23:27,854  黄威@国美 说: 
+函数调用链networking.c/creatClient->ae.c/aeCreateFileEvent
+2019-04-26 11:25:01,944  黄威@国美 说: 
+AE_READABLE为1，EPOLLET为1u<<31
+2019-04-26 11:26:26,583  黄威@国美 说: 
+抱歉，少写了个函数，networking.c/creatClient->ae.c/aeCreateFileEvent->ae_epoll.c/aeApiAddEvent

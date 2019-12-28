@@ -16,7 +16,7 @@ class MyTimedRotatingFileHandler(logging.handlers.TimedRotatingFileHandler):
     def doRollover(self):
         super(MyTimedRotatingFileHandler,self).doRollover()
         main_logger.info("Records log has been rotating...")
-        call('git add -u', shell = True)
+        call('git add .', shell = True)
         call('git reset -- ChatRecords/itchat.pkl', shell = True)
         call('git commit -m "commiting..."', shell = True)
         call('git push origin master', shell = True)
@@ -104,9 +104,30 @@ def group_reply_media(msg):
             itchat.send('%s 发送了：\n' % (username), item['UserName'])
             itchat.send('@%s@%s' % ({'Picture': 'img', 'Video': 'vid'}.get(msg['Type'], 'fil'), msg['FileName']), item['UserName'])
 
-@itchat.msg_register(SYSTEM, isGroupChat=True)
-def group_added_reply(msg):
-    print msg
+@itchat.msg_register(NOTE, isGroupChat=True)
+def group_join_note(msg):
+   global inviter,invitee
+   chatroom_name =""
+   # 消息来自于哪个群聊
+   chatroom_id = msg['FromUserName']
+   for c in chatrooms:
+       if( c['UserName'] == chatroom_id):
+           chatroom_name = c['NickName']        
+
+   if u'邀请' in msg['Content'] or u'invited' in msg['Content']:
+       str = msg['Content'];
+       pos_start = str.find('"')
+       pos_end = str.find('"',pos_start+1)
+       inviter = str[pos_start+1:pos_end]
+       rpos_start = str.rfind('"')
+       rpos_end = str.rfind('"',0, rpos_start)
+       invitee = str[(rpos_end+1) : rpos_start]
+#       main_logger.info(msg)
+   for item in chatrooms:
+       if not item['UserName'] == chatroom_id:
+           itchat.send_msg(u"%s 群新来一位朋友 %s， 让我们欢迎他/她吧！" % (chatroom_name,invitee), item['UserName'])
+       else:
+           itchat.send_msg(u"@%s\u2005欢迎来到本群[微笑]，感谢@%s \u2005邀请！方便的话做个简单自我介绍，再把群名片改为 名字@公司～ 最后看下群公告，谢谢！" % (invitee,inviter), chatroom_id )
 
 if __name__ == '__main__':
     #### main func ###
@@ -116,7 +137,7 @@ if __name__ == '__main__':
     itchat.auto_login(hotReload=True,enableCmdQR=2)
 
     # 获取所有通讯录中的相关群聊
-    chatrooms = itchat.search_chatrooms(name="Redis技术交流群")
+    chatrooms = itchat.search_chatrooms(name="Redis")
     chatroom_ids = [c['UserName'] for c in chatrooms]
 
     main_logger.info('正在监测的群聊：%d 个' %(len(chatrooms)))

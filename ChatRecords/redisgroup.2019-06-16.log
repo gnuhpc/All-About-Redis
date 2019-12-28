@@ -1,0 +1,14 @@
+2019-06-16 08:21:46,144  鹏程@CMBC 分享链接:
+ #每日分享 「链接」 Amazon ElastiCache launches reader endpoints for R...
+https://t.zsxq.com/62RnuZR
+2019-06-16 11:19:02,550  Truman@newegg 说: 
+Redis is compiled and linked against libc
+malloc by default, with the exception of jemalloc being the default on Linux
+systems. This default was picked because jemalloc has proven to have fewer
+fragmentation problems than libc malloc
+2019-06-16 11:19:40,155  Truman@newegg 说: 
+这句话该怎么理解，redis 的默认分配器是jemalloc？
+2019-06-16 11:23:04,337  杨勇@cmb 说: 
+在有jemalloc时使用je，否则默认使用libc
+2019-06-16 11:26:01,520  Truman@newegg 说: 
+thanks
