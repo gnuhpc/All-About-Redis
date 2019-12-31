@@ -1,0 +1,12 @@
+[user]
+	name = gnuhpc
+	email = gnuhpc@gmail.com
+        
+[core]
+	autocrlf = input
+[filesystem "Oracle Corporation|1.8.0_201|/dev/nvme0n1p5"]
+	timestampResolution = 1001 milliseconds
+	minRacyThreshold = 0 nanoseconds
+
+[credential]
+        helper = store
