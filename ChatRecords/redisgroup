@@ -23,3 +23,11 @@ https://t.zsxq.com/Aiiia2f
 2019-12-31 01:44:45,048  鹏程@CMBC 分享链接:
  #每日分享 Automatic Redis Clustering 「链接」 Automatic Redis Clustering - YouTube
 https://t.zsxq.com/nMBIAYJ
+2020-01-02 17:04:41,393  杨玉辉@北京物通 说: 
+大佬们问个问题
+我这个key在redis里面存储值为095360  用redis-cli客户端取到的值也是这个
+为什么用redisTemplate 取出来前面的0就没了呢，取到的值为95360  如果存的这个值开头不为0就没有这种情况
+2020-01-02 20:02:35,732  吴楚伟@利郎达 说: 
+类型转换了
+2020-01-02 21:13:13,631  肖贝贝@BIGO 说: 
+get 是个模板方法?
