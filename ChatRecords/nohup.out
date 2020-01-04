@@ -5914,3 +5914,17 @@ LOG OUT!
 █Start auto replying.
 LOG OUT!
 █Start auto replying.
+[master 442e8ac] commiting...
+ 5 files changed, 22749 insertions(+), 450 deletions(-)
+ rewrite ChatRecords/redisgroup (100%)
+ copy ChatRecords/{redisgroup => redisgroup.2020-01-02.log} (100%)
+To https://github.com/gnuhpc/All-About-Redis.git
+   8c9cd5e..442e8ac  master -> master
+Traceback (most recent call last):
+  File "/home/gnuhpc/.local/lib/python2.7/site-packages/itchat/components/register.py", line 60, in configured_reply
+    r = replyFn(msg)
+  File "syncgroupchat.py", line 128, in group_join_note
+    itchat.send_msg(u"%s 群新来一位朋友 %s， 让我们欢迎他/她吧！" % (chatroom_name,invitee), item['UserName'])
+NameError: global name 'invitee' is not defined
+
+LOG OUT!
